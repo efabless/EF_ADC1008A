@@ -1,5 +1,5 @@
 # EF_ADC1008A
-A digital controller for 8 Channel 10-bit SAR ADC.
+A digital controller for this [8 Channel 10-bit SAR ADC](https://github.com/efabless/EF_ADCS1008NC).
 
 ## Features
 - 10 Bit SAR
