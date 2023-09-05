@@ -294,7 +294,8 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
     input  wire                     seq_en,
     output wire                     fifo_full,
     input  wire [FIFO_AW-1:0]       fifo_threshold,
-    output wire                     fifo_above
+    output wire                     fifo_above,
+    output wire                     EN
 );
     wire                clken;
     wire                sample_en;
@@ -312,6 +313,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
     wire [9:0]          fifo_rdata;
     wire [FIFO_AW-1:0]  fifo_level;  
     
+    assign              EN = en;
     // Generate an SoC pulse in synch with clken
     wire start_of_conv = seq_en ? seq_soc : soc;
     always @(posedge clk or negedge rst_n)
