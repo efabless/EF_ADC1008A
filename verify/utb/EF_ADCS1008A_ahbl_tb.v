@@ -31,9 +31,15 @@ module EF_ADCS1008A_ahbl_tb;
     wire [31:0]    HRDATA;
     
     wire            irq;
+    wire            EN;
+    wire            dac_rst;
 
     real             VL = 0.0;
     real             VH = 2.048;
+    real            VDD = 3.3;
+    real            VSS = 0.0;
+    real            DVDD = 1.8;
+    real            DVSS = 0.0;
     
     `include "AHB_tasks.vh"
 
@@ -65,7 +71,7 @@ module EF_ADCS1008A_ahbl_tb;
         .cmp(cmp),
         .sample_n(sample_n),
         .ch_sel_out(ch_sel),
-        .en(EN),
+        .EN(EN),
         .dac_rst(dac_rst),
         .adc_data(adc_data),
 	    .HCLK(HCLK),
