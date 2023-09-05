@@ -225,6 +225,18 @@
             "port": "adc_data",
             "dir": "output",
             "size": "10"
+        },
+        {
+            "name": "en",
+            "port": "en",
+            "dir": "output",
+            "size": "1"
+        },
+        {
+            "name": "dac_rst",
+            "port": "dac_rst",
+            "dir": "output",
+            "size": "1"
         }
     ],
     "clock": "clk",
@@ -253,6 +265,7 @@
         {"name": "en", "size": "1", "dir" : "input"},
         {"name": "cmp", "size": "1", "dir" : "input"},
         {"name": "soc", "size": "1", "dir" : "input"},
+        {"name": "dac_rst", "size": "1", "dir" : "output"},
         {"name": "sample_n", "size": "1", "dir" : "output"},
         {"name": "eoc", "size": "1", "dir" : "output"},
         {"name": "data", "size": "10", "dir" : "output"},

@@ -50,11 +50,23 @@ module EF_ADCS1008A_ahbl_tb;
     real            in5 = 3.0;
     real            in6 = 3.1;
     real            in7 = 3.2;
+    
+    initial begin
+    force ADC_ANA.inp0 = in0;
+    force ADC_ANA.inp1 = in1;
+    force ADC_ANA.inp2 = in2;
+    force ADC_ANA.inp3 = in3;
+    force ADC_ANA.inp4 = in4;
+    force ADC_ANA.inp5 = in5;
+    end
+    
 
     EF_ADCS1008A_ahbl muv (
         .cmp(cmp),
         .sample_n(sample_n),
         .ch_sel_out(ch_sel),
+        .en(EN),
+        .dac_rst(dac_rst),
         .adc_data(adc_data),
 	    .HCLK(HCLK),
         .HRESETn(HRESETn),
@@ -70,6 +82,7 @@ module EF_ADCS1008A_ahbl_tb;
 	    .irq(irq)
     );
 
+  
 EF_ADCS1008NC ADC_ANA (
         .VDD(VDD),
         .VSS(VSS),
@@ -77,22 +90,15 @@ EF_ADCS1008NC ADC_ANA (
         .DVSS(DVSS),
         .VH(VH),
         .VL(VL),
-        .in0(in0),
-        .in1(in1),
-        .in2(in2),
-        .in3(in3),
-        .in4(in4),
-        .in5(in5),
-        .in6(in6),
-        .in7(in7),
-        .hold(sample_n),
-        .b0(ch_sel[0]),
-        .b1(ch_sel[1]),
-        .b2(ch_sel[2]),
-        .data(adc_data),
-        .cmp(cmp)
+        .VIN(),
+        .HOLD(sample_n),
+        .B(ch_sel),
+        .DATA(adc_data),
+        .CMP(cmp),
+        .RST(dac_rst),
+        .EN(EN)
     );
-    
+   
     initial begin
         $dumpfile("EF_ADCS1008A_ahbl_tb.vcd");
         $dumpvars;

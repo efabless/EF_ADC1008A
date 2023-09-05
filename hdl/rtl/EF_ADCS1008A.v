@@ -23,6 +23,10 @@
         - Fifo threshold
         - EoC
 */
+
+`timescale			1ns/1ns
+`default_nettype	none
+
 module clock_divider #(parameter CLKDIV_WIDTH = 8)(
     input wire clk,
     input wire rst_n,
@@ -181,7 +185,8 @@ module sar_ctrl #(parameter SIZE = 8) (
     input   wire [3:0]          swidth,     // Sample time width in clock cycles
     output  wire                sample_n,   // Sample_n/Hold
     output  wire [SIZE-1:0]     data,       // The output sample
-    output  wire                eoc         // End of Conversion
+    output  wire                eoc,        // End of Conversion
+    output  wire                dac_rst     // for capacitive array DAC
 );
 	
 	reg [SIZE-1:0]  result;
@@ -190,11 +195,12 @@ module sar_ctrl #(parameter SIZE = 8) (
     wire            sample_ctr_match = (swidth == sample_ctr);
 	
     // FSM to handle the SAR operation
-    reg [1:0]   state, nstate;
-	localparam [1:0]    IDLE    = 2'd0, 
-	                    SAMPLE  = 2'd1, 
-	                    CONV    = 2'd2, 
-	                    DONE    = 2'd3;
+    reg [2:0]   state, nstate;
+	localparam [2:0]    IDLE    = 3'd0, 
+	                    SAMPLE  = 3'd1, 
+	                    CONV    = 3'd2, 
+	                    DONE    = 3'd3,
+                        RST     = 3'd7;
 
 	always @*
         case (state)
@@ -202,8 +208,9 @@ module sar_ctrl #(parameter SIZE = 8) (
                         else nstate = IDLE;
             SAMPLE  :   if(sample_ctr_match) nstate = CONV;
                         else nstate = SAMPLE;
+            RST     :   nstate = CONV;
             CONV    :   if(shift == 1'b1) nstate = DONE;
-                        else nstate = CONV;
+                        else nstate = RST;
             DONE    :   nstate = IDLE;
             default:    nstate = IDLE;
         endcase
@@ -249,7 +256,8 @@ module sar_ctrl #(parameter SIZE = 8) (
     assign sample_n = (state != SAMPLE);
 
 
-	
+	assign dac_rst = (state == RST);
+
 endmodule
 
 /* Sequence is a 5-bit value: 
@@ -267,6 +275,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
     input  wire                     en,
     input  wire                     cmp,
     input  wire                     soc, 
+    output wire                     dac_rst,
     output wire                     sample_n,
     output wire                     eoc, 
     output wire [9:0]               data,
@@ -368,7 +377,8 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
         .swidth(swidth),     
         .sample_n(sample_n),       
         .data(fifo_wdata),       
-        .eoc(eoc)         
+        .eoc(eoc),
+        .dac_rst(dac_rst)         
     );
 
     // FIFO

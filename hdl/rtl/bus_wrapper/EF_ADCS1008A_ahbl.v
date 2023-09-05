@@ -33,6 +33,8 @@ module EF_ADCS1008A_ahbl (
 	output	wire 		sample_n,
 	output	wire [2:0]	ch_sel_out,
 	output	wire [9:0]	adc_data,
+	output	wire 		en,
+	output	wire 		dac_rst,
 	input	wire 		HCLK,
 	input	wire 		HRESETn,
 	input	wire [31:0]	HADDR,
@@ -88,7 +90,7 @@ module EF_ADCS1008A_ahbl (
 	wire[7:0]	sample_div	= TCTRL_REG[15:8];
 	wire[3:0]	swidth	= TCTRL_REG[19:16];
 	wire[2:0]	ch_sel_in	= CHSEL_REG[2:0];
-	wire		en	= CTRL_REG[0:0];
+	assign		en	= CTRL_REG[0:0];		// hand-modified
 	wire		seq_en	= CTRL_REG[1:1];
 	wire		soc	= SOC_REG[0:0];
 	wire[4:0]	seq0	= SEQCTRL0_REG[4:0];
@@ -125,6 +127,7 @@ module EF_ADCS1008A_ahbl (
 		.en(en),
 		.cmp(cmp),
 		.soc(soc),
+		.dac_rst(dac_rst),
 		.sample_n(sample_n),
 		.eoc(eoc),
 		.data(data),

@@ -13,6 +13,9 @@
 	See the License for the specific language governing permissions and 
 	limitations under the License.
 */
+`timescale			1ns/1ns
+`default_nettype	none
+
 module EF_ADCS1008NC (
     input real          VDD,
     input real          VSS,
@@ -22,44 +25,49 @@ module EF_ADCS1008NC (
     input real          VH,
     input real          VL,
 
-    input real          in0,
-    input real          in1,
-    input real          in2,
-    input real          in3,
-    input real          in4,
-    input real          in5,
-    input real          in6,
-    input real          in7,
-
-    input wire          hold,
+    input [7:0]         VIN ,
     
-    input wire          b0,
-    input wire          b1,
-    input wire          b2,
+    input wire          HOLD,
+    input wire          RST,
+    input wire          EN,
     
-    input  wire [9:0]   data,
+    input wire [2:0]    B,
+    
+    input wire [9:0]    DATA,
         
-    output wire         cmp
+    output wire         CMP
 
 );
 
+    real inp0 = 0.0;
+    real inp1 = 0.0;
+    real inp2 = 0.0;
+    real inp3 = 0.0;
+    real inp4 = 0.0;
+    real inp5 = 0.0;
+    real inp6 = 0.0;
+    real inp7 = 0.0;
+    
 
-    wire real a_mux;
-    assign a_mux =  ({b2,b1,b0} == 3'd0) ? in0 :
-                    ({b2,b1,b0} == 3'd1) ? in1 :
-                    ({b2,b1,b0} == 3'd2) ? in2 :
-                    ({b2,b1,b0} == 3'd3) ? in3 :
-                    ({b2,b1,b0} == 3'd4) ? in4 :
-                    ({b2,b1,b0} == 3'd5) ? in5 :
-                    ({b2,b1,b0} == 3'd6) ? in6 : in7;
+
+
+    wire real a_mux =   (B==0) ? inp0 :
+                        (B==1) ? inp1 :
+                        (B==2) ? inp2 :
+                        (B==3) ? inp3 :
+                        (B==4) ? inp4 :
+                        (B==5) ? inp5 :
+                        (B==6) ? inp6 : inp7;
 
     real held_value;
-    always @(posedge hold)
+    always @(posedge HOLD)
         held_value = a_mux;
 
-    wire real dac_out;
-    assign dac_out = data * (VH-VL)/1024.0;
+    real dac_out;
 
-    assign cmp = (held_value > dac_out) ? 1 : 0;
+    always @(negedge RST)
+        dac_out = DATA * (VH-VL)/1024.0;
+
+    assign CMP = (held_value > dac_out) ? 1 : 0;
 
 endmodule
