@@ -24,28 +24,26 @@
 `timescale			1ns/1ns
 `default_nettype	none
 
-`define		AHB_BLOCK(name, init)	always @(posedge HCLK or negedge HRESETn) if(~HRESETn) name <= init;
-`define		AHB_REG(name, init)		`AHB_BLOCK(name, init) else if(ahbl_we & (last_HADDR==``name``_ADDR)) name <= HWDATA;
-`define		AHB_ICR(sz)				`AHB_BLOCK(ICR_REG, sz'b0) else if(ahbl_we & (last_HADDR==ICR_REG_ADDR)) ICR_REG <= HWDATA; else ICR_REG <= sz'd0;
+`define		APB_BLOCK(name, init)	always @(posedge PCLK or negedge PRESETn) if(~PRESETn) name <= init;
+`define		APB_REG(name, init)		`APB_BLOCK(name, init) else if(apb_we & (PADDR[15:0]==``name``_ADDR)) name <= PWDATA;
+`define		APB_ICR(sz)				`APB_BLOCK(ICR_REG, sz'b0) else if(apb_we & (PADDR[15:0]==ICR_REG_ADDR)) ICR_REG <= PWDATA; else ICR_REG <= sz'd0;
 
-module EF_ADCS1008A_ahbl (
+module EF_ADCS1008A_apb (
 	input	wire 		cmp,
 	output	wire 		sample_n,
 	output	wire [2:0]	ch_sel_out,
 	output	wire [9:0]	adc_data,
 	output	wire 		EN,
 	output	wire 		dac_rst,
-	input	wire 		HCLK,
-	input	wire 		HRESETn,
-	input	wire [31:0]	HADDR,
-	input	wire 		HWRITE,
-	input	wire [1:0]	HTRANS,
-	input	wire 		HREADY,
-	input	wire 		HSEL,
-	input	wire [2:0]	HSIZE,
-	input	wire [31:0]	HWDATA,
-	output	wire [31:0]	HRDATA,
-	output	wire 		HREADYOUT,
+	input	wire 		PCLK,
+	input	wire 		PRESETn,
+	input	wire [31:0]	PADDR,
+	input	wire 		PWRITE,
+	input	wire 		PSEL,
+	input	wire 		PENABLE,
+	input	wire [31:0]	PWDATA,
+	output	wire [31:0]	PRDATA,
+	output	wire 		PREADY,
 	output	wire 		irq
 );
 	localparam[15:0] TCTRL_REG_ADDR = 16'h0000;
@@ -60,20 +58,6 @@ module EF_ADCS1008A_ahbl (
 	localparam[15:0] RIS_REG_ADDR = 16'h0f04;
 	localparam[15:0] IM_REG_ADDR = 16'h0f08;
 	localparam[15:0] MIS_REG_ADDR = 16'h0f0c;
-
-	reg             last_HSEL;
-	reg [31:0]      last_HADDR;
-	reg             last_HWRITE;
-	reg [1:0]       last_HTRANS;
-
-	always@ (posedge HCLK) begin
-		if(HREADY) begin
-			last_HSEL       <= HSEL;
-			last_HADDR      <= HADDR;
-			last_HWRITE     <= HWRITE;
-			last_HTRANS     <= HTRANS;
-		end
-	end
 
 	reg	[31:0]	TCTRL_REG;
 	reg	[2:0]	CHSEL_REG;
@@ -111,12 +95,12 @@ module EF_ADCS1008A_ahbl (
 	wire		eoc;
 	wire		_EOC_FLAG_	= eoc;
 	wire[2:0]	MIS_REG	= RIS_REG & IM_REG;
-	wire		ahbl_valid	= last_HSEL & last_HTRANS[1];
-	wire		ahbl_we	= last_HWRITE & ahbl_valid;
-	wire		ahbl_re	= ~last_HWRITE & ahbl_valid;
-	wire		_clk_	= HCLK;
-	wire		_rst_	= ~HRESETn;
-	wire		rd	= (ahbl_re & (last_HADDR==DATA_REG_ADDR));
+	wire		apb_valid	= PSEL & PENABLE;
+	wire		apb_we	= PWRITE & apb_valid;
+	wire		apb_re	= ~PWRITE & apb_valid;
+	wire		_clk_	= PCLK;
+	wire		_rst_	= ~PRESETn;
+	wire		rd	= (apb_re & (PADDR[15:0]==DATA_REG_ADDR));
 
 	EF_ADCS1008A inst_to_wrap (
 		.clk(_clk_),
@@ -149,19 +133,19 @@ module EF_ADCS1008A_ahbl (
 		.fifo_above(fifo_above)
 	);
 
-	`AHB_REG(TCTRL_REG, 0)
-	`AHB_REG(CHSEL_REG, 0)
-	`AHB_REG(CTRL_REG, 0)
-	`AHB_REG(SOC_REG, 0)
-	`AHB_REG(SEQCTRL0_REG, 0)
-	`AHB_REG(SEQCTRL1_REG, 0)
-	`AHB_REG(FIFOLEVEL_REG, 0)
-	`AHB_REG(IM_REG, 0)
+	`APB_REG(TCTRL_REG, 0)
+	`APB_REG(CHSEL_REG, 0)
+	`APB_REG(CTRL_REG, 0)
+	`APB_REG(SOC_REG, 0)
+	`APB_REG(SEQCTRL0_REG, 0)
+	`APB_REG(SEQCTRL1_REG, 0)
+	`APB_REG(FIFOLEVEL_REG, 0)
+	`APB_REG(IM_REG, 0)
 
-	`AHB_ICR(3)
+	`APB_ICR(3)
 
-	always @(posedge HCLK or negedge HRESETn)
-		if(~HRESETn) RIS_REG <= 32'd0;
+	always @(posedge PCLK or negedge PRESETn)
+		if(~PRESETn) RIS_REG <= 32'd0;
 		else begin
 			if(_FIFO_FULL_FLAG_) RIS_REG[0] <= 1'b1; else if(ICR_REG[0]) RIS_REG[0] <= 1'b0;
 			if(_FIFO_LEVEL_FLAG_) RIS_REG[1] <= 1'b1; else if(ICR_REG[1]) RIS_REG[1] <= 1'b0;
@@ -171,22 +155,22 @@ module EF_ADCS1008A_ahbl (
 
 	assign irq = |MIS_REG;
 
-	assign	HRDATA = 
-			(last_HADDR == TCTRL_REG_ADDR) ? TCTRL_REG :
-			(last_HADDR == CHSEL_REG_ADDR) ? CHSEL_REG :
-			(last_HADDR == CTRL_REG_ADDR) ? CTRL_REG :
-			(last_HADDR == SOC_REG_ADDR) ? SOC_REG :
-			(last_HADDR == SEQCTRL0_REG_ADDR) ? SEQCTRL0_REG :
-			(last_HADDR == SEQCTRL1_REG_ADDR) ? SEQCTRL1_REG :
-			(last_HADDR == FIFOLEVEL_REG_ADDR) ? FIFOLEVEL_REG :
-			(last_HADDR == RIS_REG_ADDR) ? RIS_REG :
-			(last_HADDR == ICR_REG_ADDR) ? ICR_REG :
-			(last_HADDR == IM_REG_ADDR) ? IM_REG :
-			(last_HADDR == DATA_REG_ADDR) ? DATA_REG :
-			(last_HADDR == MIS_REG_ADDR) ? MIS_REG :
+	assign	PRDATA = 
+			(PADDR[15:0] == TCTRL_REG_ADDR) ? TCTRL_REG :
+			(PADDR[15:0] == CHSEL_REG_ADDR) ? CHSEL_REG :
+			(PADDR[15:0] == CTRL_REG_ADDR) ? CTRL_REG :
+			(PADDR[15:0] == SOC_REG_ADDR) ? SOC_REG :
+			(PADDR[15:0] == SEQCTRL0_REG_ADDR) ? SEQCTRL0_REG :
+			(PADDR[15:0] == SEQCTRL1_REG_ADDR) ? SEQCTRL1_REG :
+			(PADDR[15:0] == FIFOLEVEL_REG_ADDR) ? FIFOLEVEL_REG :
+			(PADDR[15:0] == RIS_REG_ADDR) ? RIS_REG :
+			(PADDR[15:0] == ICR_REG_ADDR) ? ICR_REG :
+			(PADDR[15:0] == IM_REG_ADDR) ? IM_REG :
+			(PADDR[15:0] == DATA_REG_ADDR) ? DATA_REG :
+			(PADDR[15:0] == MIS_REG_ADDR) ? MIS_REG :
 			32'hDEADBEEF;
 
 
-	assign HREADYOUT = 1'b1;
+	assign PREADY = 1'b1;
 
 endmodule
