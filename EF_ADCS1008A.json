@@ -284,7 +284,8 @@
         {"name": "seq_en", "size": "1", "dir" : "input"},
         {"name": "fifo_full", "size": "1", "dir" : "output"},
         {"name": "fifo_threshold", "size": "4", "dir" : "input"},
-        {"name": "fifo_above", "size": "1", "dir" : "output"}
+        {"name": "fifo_above", "size": "1", "dir" : "output"},
+        {"name": "EN", "size": "1", "dir" : "output"}
     ],
     "fifos": [
         {
