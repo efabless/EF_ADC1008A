@@ -130,7 +130,8 @@ module EF_ADCS1008A_apb (
 		.seq_en(seq_en),
 		.fifo_full(fifo_full),
 		.fifo_threshold(fifo_threshold),
-		.fifo_above(fifo_above)
+		.fifo_above(fifo_above),
+		.EN(EN)
 	);
 
 	`APB_REG(TCTRL_REG, 0)
