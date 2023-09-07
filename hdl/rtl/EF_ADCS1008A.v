@@ -204,13 +204,13 @@ module sar_ctrl #(parameter SIZE = 8) (
 
 	always @*
         case (state)
-            IDLE    :   if(soc) nstate = SAMPLE;
+            IDLE    :   if(soc) nstate = RST;
                         else nstate = IDLE;
+            RST     :   nstate = SAMPLE;
             SAMPLE  :   if(sample_ctr_match) nstate = CONV;
                         else nstate = SAMPLE;
-            RST     :   nstate = CONV;
             CONV    :   if(shift == 1'b1) nstate = DONE;
-                        else nstate = RST;
+                        else nstate = CONV;
             DONE    :   nstate = IDLE;
             default:    nstate = IDLE;
         endcase
