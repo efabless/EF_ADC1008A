@@ -244,7 +244,9 @@ module sar_ctrl #(parameter SIZE = 8) (
     wire [SIZE-1:0] next = shift >> 1;
     always @(posedge clk)
         if(en)
-            if(state == IDLE) 
+            if(state == IDLE)
+                result <= 'b0;
+            else if(state == RST) 
                 result <= 1'b1 << (SIZE-1);
             else if(state == CONV)
                 result <= (result | next) & current; 
