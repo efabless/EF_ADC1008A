@@ -48,9 +48,6 @@ module EF_ADCS1008NC (
     real inp6 = 0.0;
     real inp7 = 0.0;
     
-
-
-
     wire real a_mux =   (B==0) ? inp0 :
                         (B==1) ? inp1 :
                         (B==2) ? inp2 :
@@ -63,10 +60,10 @@ module EF_ADCS1008NC (
     always @(posedge HOLD)
         held_value = a_mux;
 
-    real dac_out;
+    wire real dac_out;
 
-    always @(negedge RST)
-        dac_out = DATA * (VH-VL)/1024.0;
+    //always @(negedge RST)
+    assign dac_out = DATA * (VH-VL)/1024.0;
 
     assign CMP = (held_value > dac_out) ? 1 : 0;
 
