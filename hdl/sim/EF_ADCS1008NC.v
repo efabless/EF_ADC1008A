@@ -17,16 +17,24 @@
 `default_nettype	none
 
 module EF_ADCS1008NC (
+`ifdef USE_POWER_PINS
     input real          VDD,
     input real          VSS,
     input real          DVDD,
     input real          DVSS,
-
+`endif
     input real          VH,
     input real          VL,
 
-    input [7:0]         VIN ,
-    
+    input real          \VIN[0] ,
+    input real          \VIN[1] ,
+    input real          \VIN[2] ,
+    input real          \VIN[3] ,
+    input real          \VIN[4] ,
+    input real          \VIN[5] ,
+    input real          \VIN[6] ,
+    input real          \VIN[7] ,
+
     input wire          HOLD,
     input wire          RST,
     input wire          EN,
@@ -39,30 +47,28 @@ module EF_ADCS1008NC (
 
 );
 
-    real inp0 = 0.0;
-    real inp1 = 0.0;
-    real inp2 = 0.0;
-    real inp3 = 0.0;
-    real inp4 = 0.0;
-    real inp5 = 0.0;
-    real inp6 = 0.0;
-    real inp7 = 0.0;
-    
-    wire real a_mux =   (B==0) ? inp0 :
-                        (B==1) ? inp1 :
-                        (B==2) ? inp2 :
-                        (B==3) ? inp3 :
-                        (B==4) ? inp4 :
-                        (B==5) ? inp5 :
-                        (B==6) ? inp6 : inp7;
+    real err = 0.33;
+
+    wire real a_mux =   (B==0) ? \VIN[0] :
+                        (B==1) ? \VIN[1] :
+                        (B==2) ? \VIN[2] :
+                        (B==3) ? \VIN[3] :
+                        (B==4) ? \VIN[4] :
+                        (B==5) ? \VIN[5] :
+                        (B==6) ? \VIN[6] : \VIN[7] ;
 
     real held_value;
     always @(posedge HOLD)
-        held_value = a_mux;
+        if(EN)
+            held_value = (a_mux + err);
+        else
+            held_value = 0.0;
 
     wire real dac_out;
 
-    //always @(negedge RST)
+    always @(negedge RST)
+        err = 0.0;
+
     assign dac_out = DATA * (VH-VL)/1024.0;
 
     assign CMP = (held_value > dac_out) ? 1 : 0;
