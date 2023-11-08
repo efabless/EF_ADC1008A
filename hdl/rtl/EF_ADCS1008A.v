@@ -27,7 +27,7 @@
 `timescale			1ns/1ns
 `default_nettype	none
 
-module clock_divider #(parameter CLKDIV_WIDTH = 8)(
+module clock_divider_adc #(parameter CLKDIV_WIDTH = 8)(
     input wire clk,
     input wire rst_n,
     input wire en,
@@ -61,7 +61,7 @@ module clock_divider #(parameter CLKDIV_WIDTH = 8)(
 
 endmodule
 
-module fifo #(parameter DW=10, AW=5)(
+module fifo_adc #(parameter DW=10, AW=5)(
     input     wire            clk,
     input     wire            rst_n,
     input     wire            rd,
@@ -356,7 +356,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
         else if(clken) seq_soc = 'b0;
     
     // Clock Dividers
-    clock_divider CDIV (
+    clock_divider_adc CDIV (
         .clk(clk),
         .rst_n(rst_n),
         .en(en),
@@ -364,7 +364,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
         .clko(clken)
     );
     
-    clock_divider SDIV (
+    clock_divider_adc SDIV (
         .clk(clk),
         .rst_n(rst_n),
         .en(clken & seq_en),
@@ -396,7 +396,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
 
     assign fifo_above = (fifo_threshold < fifo_level);
 
-    fifo #(.AW(FIFO_AW)) ADCFIFO (
+    fifo_adc #(.AW(FIFO_AW)) ADCFIFO (
         .clk(clk),
         .rst_n(rst_n),
         .rd(fifo_rd),
