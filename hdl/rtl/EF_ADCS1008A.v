@@ -61,7 +61,7 @@ module clock_divider_adc #(parameter CLKDIV_WIDTH = 8)(
 
 endmodule
 
-module fifo_adc #(parameter DW=10, AW=5)(
+module fifo_adc #(parameter DW=12, AW=5)(
     input     wire            clk,
     input     wire            rst_n,
     input     wire            rd,
@@ -280,8 +280,8 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
     output wire                     dac_rst,
     output wire                     sample_n,
     output wire                     eoc, 
-    output wire [9:0]               data,
-    output wire [9:0]               adc_data,
+    output wire [11:0]              data,
+    output wire [11:0]              adc_data,
     input  wire                     rd,
     output wire [2:0]               ch_sel_out,
     input  wire [2:0]               ch_sel_in,
@@ -309,10 +309,10 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
 
     wire                fifo_rd;
     wire                fifo_wr;
-    wire [9:0]          fifo_wdata;
+    wire [11:0]         fifo_wdata;
     wire                fifo_empty;
     //wire            fifo_full;
-    wire [9:0]          fifo_rdata;
+    wire [11:0]          fifo_rdata;
     wire [FIFO_AW-1:0]  fifo_level;  
     
     assign              EN = en;

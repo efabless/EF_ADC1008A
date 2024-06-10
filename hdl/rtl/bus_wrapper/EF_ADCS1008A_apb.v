@@ -32,7 +32,7 @@ module EF_ADCS1008A_apb (
 	input	wire 		cmp,
 	output	wire 		sample_n,
 	output	wire [2:0]	ch_sel_out,
-	output	wire [9:0]	adc_data,
+	output	wire [11:0]	adc_data,
 	output	wire 		EN,
 	output	wire 		dac_rst,
 	input	wire 		PCLK,
@@ -85,8 +85,8 @@ module EF_ADCS1008A_apb (
 	wire[4:0]	seq5	= SEQCTRL1_REG[12:8];
 	wire[4:0]	seq6	= SEQCTRL1_REG[20:16];
 	wire[4:0]	seq7	= SEQCTRL1_REG[28:24];
-	wire[9:0]	data;
-	wire[9:0]	DATA_REG	= data;
+	wire[11:0]	data;
+	wire[11:0]	DATA_REG	= data;
 	wire[4:0]	fifo_threshold	= FIFOLEVEL_REG[4:0];
 	wire		fifo_full;
 	wire		_FIFO_FULL_FLAG_	= fifo_full;
