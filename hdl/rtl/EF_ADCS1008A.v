@@ -372,7 +372,7 @@ module EF_ADCS1008A #(parameter CLKDIV_WIDTH = 8, FIFO_AW=5)(
         .clko(sample_en)
     );
 
-    sar_ctrl #(.SIZE(10)) SAR ( 
+    sar_ctrl #(.SIZE(12)) SAR ( 
         .clk(clk),        
         .rst_n(rst_n),      
         .soc(soc_edge),        
