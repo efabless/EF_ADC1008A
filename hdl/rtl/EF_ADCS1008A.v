@@ -176,6 +176,11 @@ module fifo_adc #(parameter DW=12, AW=5)(
   
 endmodule
 
+/* sar_ctrl() has been moved to a separate file sar_ctrl.v */
+
+`include "sar_ctrl.v"
+
+/*----------------------------
 module sar_ctrl #(parameter SIZE = 8) ( 
     input   wire                clk,        // The clock
     input   wire                rst_n,      // Active high reset
@@ -209,7 +214,7 @@ module sar_ctrl #(parameter SIZE = 8) (
             RST     :   nstate = SAMPLE;
             SAMPLE  :   if(sample_ctr_match) nstate = CONV;
                         else nstate = SAMPLE;
-            CONV    :   if(shift == 1'b1) nstate = DONE;
+            CONV    :   if(shift == 'b1) nstate = DONE;
                         else nstate = CONV;
             DONE    :   nstate = IDLE;
             default:    nstate = IDLE;
@@ -261,6 +266,7 @@ module sar_ctrl #(parameter SIZE = 8) (
 	assign dac_rst = (state == RST);
 
 endmodule
+----------------------------*/
 
 /* Sequence is a 5-bit value: 
     - [2:0] : Channel Number
