@@ -1,0 +1,848 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_e_f___a_d_c_s1008_a__regs_8h" kind="file" language="C++">
+    <compoundname>EF_ADCS1008A_regs.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>EF_ADCS1008A_regs.h</label>
+        <link refid="_e_f___a_d_c_s1008_a__regs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" prot="public">_EF_ADCS1008A_TYPE_</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a470cd5845bed94d8b8b358933e4a3442" prot="public" static="no">
+        <name>IO_TYPES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="34" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" prot="public" static="no">
+        <name>__R</name>
+        <initializer>volatile const uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="35" column="11" bodyfile="EF_ADCS1008A_regs.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" prot="public" static="no">
+        <name>__W</name>
+        <initializer>volatile       uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="36" column="11" bodyfile="EF_ADCS1008A_regs.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" prot="public" static="no">
+        <name>__RW</name>
+        <initializer>volatile       uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="37" column="11" bodyfile="EF_ADCS1008A_regs.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a8a227a05f21b54714fb165c3f1ca11fe" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_CLKDIV_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="40" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1af4181c564321fcfcb840c6dd7ff439f4" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_CLKDIV_MASK</name>
+        <initializer>((uint32_t)0xff)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="41" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1acfd984489fec381c1059d97042b8807d" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="42" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a9d45ecbc17ff96fea608b67d09b3fdb9" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_MASK</name>
+        <initializer>((uint32_t)0xff00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="43" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a29f9a6000a3686c1bfba35506c1a6114" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SWIDTH_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="44" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a343bdf053b358bfe22c99116ce480687" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SWIDTH_MASK</name>
+        <initializer>((uint32_t)0xf0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="45" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ab936b1e619bcbec2db1baeb812297f5f" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="46" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a51f09fd947661c6ddd8fc6086e184c43" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_CHANNEL_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="48" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a79b921899b57384befe1835575a62ac8" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_CHANNEL_MASK</name>
+        <initializer>((uint32_t)0x7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="49" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a3bf33aab0270ae6dfb4b82d1e28542df" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="50" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ad0b9ea78e032a97e48c5fcf6154db878" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_EN_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="52" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a2a5b5ff0c5b61036d2cb01993ce6e2dd" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_EN_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="53" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aba4780645831df8ebd14e0960f0b8828" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_SEQEN_BIT</name>
+        <initializer>((uint32_t)1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="54" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a949015128dafa93224966616564f4157" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_SEQEN_MASK</name>
+        <initializer>((uint32_t)0x2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="55" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a2e39eb4a9f57ff5d79d8d442605fe9a3" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="56" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ae6a363f334a585cfcd1a5a9bf4e546bf" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_SOC_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="58" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ae5204fcb1feb22569de161ad944df876" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_SOC_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="59" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a07854c2ec4b8ebc0c35c03abe92c9bff" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="60" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ad653aa3eaf566463e75c5969282ebd48" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="62" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a7350d36a12e40101802df8a2426daf9d" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="63" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aebd4a116c4a5ec155675a2ba3398beb9" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="64" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aeb2e422578edbf1de3abbdac2c79a514" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_MASK</name>
+        <initializer>((uint32_t)0x1f00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="65" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ac0d336573278a6630c00323ad5f4e5d5" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="66" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a460daab106695ebd98f4afe2fdba2451" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_MASK</name>
+        <initializer>((uint32_t)0x1f0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="67" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a4899de5c7ea08660626296b49157c3b9" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_BIT</name>
+        <initializer>((uint32_t)24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="68" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a22a0daeb45b7ee42c9b270ef2982c185" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_MASK</name>
+        <initializer>((uint32_t)0x1f000000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="69" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a000115bc8ed6bbf2757c4522c0ccaf95" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="70" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ac7a0695ed8afa07a2dae23c7d852d0cc" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="72" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1acd99e2d1c80b229c05ddbf9fa3f6b662" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="73" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a9107b4462d59b5fc4d1a3b1a58e981d6" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="74" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a0a0d08d1236eac43c5b66026d454c538" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_MASK</name>
+        <initializer>((uint32_t)0x1f00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="75" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1acd1028fcb870bc43f8c73c1056d37de7" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="76" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a256b872e01f51c4503a2799349b6a5af" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_MASK</name>
+        <initializer>((uint32_t)0x1f0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="77" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aa7a1778cd4b8c87ebc980334a7ad3025" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_BIT</name>
+        <initializer>((uint32_t)24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="78" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a502a42a3d6b492a55d65c46a21783059" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_MASK</name>
+        <initializer>((uint32_t)0x1f000000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="79" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aa8f8b4d9d9408dbbbd632193047c6336" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="80" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a88e27fb90e473270a5441da550ab902b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_DATA_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="82" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a66ad5e2f63139e28f756155f446a35f2" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_DATA_MASK</name>
+        <initializer>((uint32_t)0x3ff)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="83" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a580441b187cfa287b8bf8eb82dfbd980" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x3FF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="84" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a0b15e125d8881c68a7b817c158ea1a44" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="86" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1abda2031c4cb9d1060c3d2ea43adec805" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="87" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aa219492a08fb2491700de062cbde7df7" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="88" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1aba97ac4699fb7a8ad03a0c7a6590829c" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="90" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a77ffa77ab2afc47168ad23f7aeace4d5" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="91" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1ac9cba2e85dcfeaa8d3724134243ef8c3" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="92" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a866a152f57f83ee1c24ab8216da12636" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="94" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a937be0dbd6420d9a3b661a2eff14f71c" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="95" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a812cef54f892c00d0a262a8f015d958b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="96" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a2a06eaa504ebf6e1111db3739ab7573f" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="98" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a930ced4415198cb02eba8b1b79b98697" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="99" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1add3a262ed7741376d291c559da1ec99b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="100" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a9d628e6e9540f3ea5d07785d17107539" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFO_FULL_FLAG</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="103" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a066f3de73a56dc802a4f46bbe6521e26" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFO_LEVEL_FLAG</name>
+        <initializer>((uint32_t)0x2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="104" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a__regs_8h_1a282763bbe69dbf5f0580cea65e34eff7" prot="public" static="no">
+        <name>EF_ADCS1008A_EOC_FLAG</name>
+        <initializer>((uint32_t)0x4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="105" column="9" bodyfile="EF_ADCS1008A_regs.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_e_f___a_d_c_s1008_a__regs_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" prot="public" static="no">
+        <type>struct <ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref></type>
+        <definition>typedef struct _EF_ADCS1008A_TYPE_ EF_ADCS1008A_TYPE</definition>
+        <argsstring></argsstring>
+        <name>EF_ADCS1008A_TYPE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="131" column="19"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_e_f___a_d_c_s1008_a__regs_8h_1a36755f0e5dd4cfdb50003f78c49adf96" prot="public" static="no">
+        <type>struct <ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref> *</type>
+        <definition>typedef struct _EF_ADCS1008A_TYPE_* EF_ADCS1008A_TYPE_PTR</definition>
+        <argsstring></argsstring>
+        <name>EF_ADCS1008A_TYPE_PTR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A_regs.h" line="133" column="34" bodyfile="EF_ADCS1008A_regs.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>2024<sp/>Efabless<sp/>Corp.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>Author:<sp/>Mohamed<sp/>Shalan<sp/>(mshalan@efabless.com)</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/><sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EF_ADCS1008AREGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008AREGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>Includes</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>Macros<sp/>and<sp/>Constants</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>IO_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_e_f___a_d_c_s1008_a__regs_8h_1a470cd5845bed94d8b8b358933e4a3442" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IO_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__R<sp/><sp/><sp/><sp/><sp/>volatile<sp/>const<sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__W<sp/><sp/><sp/><sp/><sp/>volatile<sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__RW<sp/><sp/><sp/><sp/>volatile<sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_e_f___a_d_c_s1008_a__regs_8h_1a8a227a05f21b54714fb165c3f1ca11fe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_CLKDIV_BIT<sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="_e_f___a_d_c_s1008_a__regs_8h_1af4181c564321fcfcb840c6dd7ff439f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_CLKDIV_MASK<sp/><sp/>((uint32_t)0xff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="_e_f___a_d_c_s1008_a__regs_8h_1acfd984489fec381c1059d97042b8807d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_BIT<sp/><sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="_e_f___a_d_c_s1008_a__regs_8h_1a9d45ecbc17ff96fea608b67d09b3fdb9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_MASK<sp/><sp/>((uint32_t)0xff00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="_e_f___a_d_c_s1008_a__regs_8h_1a29f9a6000a3686c1bfba35506c1a6114" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SWIDTH_BIT<sp/><sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="_e_f___a_d_c_s1008_a__regs_8h_1a343bdf053b358bfe22c99116ce480687" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SWIDTH_MASK<sp/><sp/>((uint32_t)0xf0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_e_f___a_d_c_s1008_a__regs_8h_1ab936b1e619bcbec2db1baeb812297f5f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="_e_f___a_d_c_s1008_a__regs_8h_1a51f09fd947661c6ddd8fc6086e184c43" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_CHANNEL_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_e_f___a_d_c_s1008_a__regs_8h_1a79b921899b57384befe1835575a62ac8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_CHANNEL_MASK<sp/>((uint32_t)0x7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_e_f___a_d_c_s1008_a__regs_8h_1a3bf33aab0270ae6dfb4b82d1e28542df" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0x7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="_e_f___a_d_c_s1008_a__regs_8h_1ad0b9ea78e032a97e48c5fcf6154db878" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_EN_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_e_f___a_d_c_s1008_a__regs_8h_1a2a5b5ff0c5b61036d2cb01993ce6e2dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_EN_MASK<sp/><sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_e_f___a_d_c_s1008_a__regs_8h_1aba4780645831df8ebd14e0960f0b8828" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_SEQEN_BIT<sp/>((uint32_t)1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_e_f___a_d_c_s1008_a__regs_8h_1a949015128dafa93224966616564f4157" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_SEQEN_MASK<sp/><sp/><sp/><sp/>((uint32_t)0x2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="_e_f___a_d_c_s1008_a__regs_8h_1a2e39eb4a9f57ff5d79d8d442605fe9a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_MAX_VALUE<sp/>((uint32_t)0x3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_e_f___a_d_c_s1008_a__regs_8h_1ae6a363f334a585cfcd1a5a9bf4e546bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_SOC_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_e_f___a_d_c_s1008_a__regs_8h_1ae5204fcb1feb22569de161ad944df876" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_SOC_MASK<sp/><sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="_e_f___a_d_c_s1008_a__regs_8h_1a07854c2ec4b8ebc0c35c03abe92c9bff" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_e_f___a_d_c_s1008_a__regs_8h_1ad653aa3eaf566463e75c5969282ebd48" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_e_f___a_d_c_s1008_a__regs_8h_1a7350d36a12e40101802df8a2426daf9d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="_e_f___a_d_c_s1008_a__regs_8h_1aebd4a116c4a5ec155675a2ba3398beb9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_BIT<sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_e_f___a_d_c_s1008_a__regs_8h_1aeb2e422578edbf1de3abbdac2c79a514" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_MASK<sp/>((uint32_t)0x1f00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_e_f___a_d_c_s1008_a__regs_8h_1ac0d336573278a6630c00323ad5f4e5d5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_BIT<sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="_e_f___a_d_c_s1008_a__regs_8h_1a460daab106695ebd98f4afe2fdba2451" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_MASK<sp/>((uint32_t)0x1f0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="_e_f___a_d_c_s1008_a__regs_8h_1a4899de5c7ea08660626296b49157c3b9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_BIT<sp/><sp/>((uint32_t)24)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="_e_f___a_d_c_s1008_a__regs_8h_1a22a0daeb45b7ee42c9b270ef2982c185" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_MASK<sp/>((uint32_t)0x1f000000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_e_f___a_d_c_s1008_a__regs_8h_1a000115bc8ed6bbf2757c4522c0ccaf95" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_MAX_VALUE<sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="_e_f___a_d_c_s1008_a__regs_8h_1ac7a0695ed8afa07a2dae23c7d852d0cc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="_e_f___a_d_c_s1008_a__regs_8h_1acd99e2d1c80b229c05ddbf9fa3f6b662" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_e_f___a_d_c_s1008_a__regs_8h_1a9107b4462d59b5fc4d1a3b1a58e981d6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_BIT<sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="_e_f___a_d_c_s1008_a__regs_8h_1a0a0d08d1236eac43c5b66026d454c538" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_MASK<sp/>((uint32_t)0x1f00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="_e_f___a_d_c_s1008_a__regs_8h_1acd1028fcb870bc43f8c73c1056d37de7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_BIT<sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="_e_f___a_d_c_s1008_a__regs_8h_1a256b872e01f51c4503a2799349b6a5af" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_MASK<sp/>((uint32_t)0x1f0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="_e_f___a_d_c_s1008_a__regs_8h_1aa7a1778cd4b8c87ebc980334a7ad3025" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_BIT<sp/><sp/>((uint32_t)24)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="_e_f___a_d_c_s1008_a__regs_8h_1a502a42a3d6b492a55d65c46a21783059" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_MASK<sp/>((uint32_t)0x1f000000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="_e_f___a_d_c_s1008_a__regs_8h_1aa8f8b4d9d9408dbbbd632193047c6336" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_MAX_VALUE<sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="_e_f___a_d_c_s1008_a__regs_8h_1a88e27fb90e473270a5441da550ab902b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_DATA_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="_e_f___a_d_c_s1008_a__regs_8h_1a66ad5e2f63139e28f756155f446a35f2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_DATA_MASK<sp/>((uint32_t)0x3ff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="_e_f___a_d_c_s1008_a__regs_8h_1a580441b187cfa287b8bf8eb82dfbd980" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_MAX_VALUE<sp/>((uint32_t)0x3FF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_e_f___a_d_c_s1008_a__regs_8h_1a0b15e125d8881c68a7b817c158ea1a44" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="_e_f___a_d_c_s1008_a__regs_8h_1abda2031c4cb9d1060c3d2ea43adec805" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_MASK<sp/><sp/><sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="_e_f___a_d_c_s1008_a__regs_8h_1aa219492a08fb2491700de062cbde7df7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="_e_f___a_d_c_s1008_a__regs_8h_1aba97ac4699fb7a8ad03a0c7a6590829c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="_e_f___a_d_c_s1008_a__regs_8h_1a77ffa77ab2afc47168ad23f7aeace4d5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="_e_f___a_d_c_s1008_a__regs_8h_1ac9cba2e85dcfeaa8d3724134243ef8c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_e_f___a_d_c_s1008_a__regs_8h_1a866a152f57f83ee1c24ab8216da12636" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="_e_f___a_d_c_s1008_a__regs_8h_1a937be0dbd6420d9a3b661a2eff14f71c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="_e_f___a_d_c_s1008_a__regs_8h_1a812cef54f892c00d0a262a8f015d958b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="_e_f___a_d_c_s1008_a__regs_8h_1a2a06eaa504ebf6e1111db3739ab7573f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="_e_f___a_d_c_s1008_a__regs_8h_1a930ced4415198cb02eba8b1b79b98697" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_MASK<sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="_e_f___a_d_c_s1008_a__regs_8h_1add3a262ed7741376d291c559da1ec99b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="_e_f___a_d_c_s1008_a__regs_8h_1a9d628e6e9540f3ea5d07785d17107539" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFO_FULL_FLAG<sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="_e_f___a_d_c_s1008_a__regs_8h_1a066f3de73a56dc802a4f46bbe6521e26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFO_LEVEL_FLAG<sp/><sp/><sp/><sp/>((uint32_t)0x2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="_e_f___a_d_c_s1008_a__regs_8h_1a282763bbe69dbf5f0580cea65e34eff7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_EOC_FLAG<sp/><sp/><sp/>((uint32_t)0x4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="110"><highlight class="comment">*<sp/>Typedefs<sp/>and<sp/>Enums</highlight></codeline>
+<codeline lineno="111"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a0e32fc4b8b97a47f5b97e017ea56f56e" kindref="member">TCTRL</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1acfbb2bd3868f3427d2a78e843a048e34" kindref="member">CHSEL</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6412464e03af8ac4f17f3af5f6e2bd59" kindref="member">CTRL</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1c35047892c0514f208a2dd17d70e63f" kindref="member">SOC</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aba020ceed6c8aead05b1604544abca58" kindref="member">SEQCTRL0</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad864a3f6e6b5dcd83bbe23fabfdb3dbf" kindref="member">SEQCTRL1</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a8f348683e6bba29a70435b83cd4570b8" kindref="member">DATA</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad76c2be667a0f0a47c26a1804bae391a" kindref="member">FIFOLEVEL</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6f7f00666600b805b45eeac49ad0fa0f" kindref="member">reserved_0</ref>[16248];</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ae20ffbbaca6e2b13ff2918a8a7ab0b49" kindref="member">DATA_FIFO_LEVEL</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6a405e72ca47929a1a016f17b899a0f2" kindref="member">DATA_FIFO_THRESHOLD</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a46d834f7481a537e3ad145092e0ed543" kindref="member">DATA_FIFO_FLUSH</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ac34673f8f884a689ff7ce5aff1266245" kindref="member">reserved_1</ref>[61];</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a2fab53caf4c0f4bc9002ca063c79c59a" kindref="member">IM</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aeb9a486a0bd367132d2711cc03748423" kindref="member">MIS</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1fa6ea8fb9307137c5ab3d356303de03" kindref="member">RIS</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6b80dc3c8782a663cbcdfde7c5c51088" kindref="member">IC</ref>;</highlight></codeline>
+<codeline lineno="131" refid="_e_f___a_d_c_s1008_a__regs_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" refkind="member"><highlight class="normal">}<sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" kindref="member">EF_ADCS1008A_TYPE</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="_e_f___a_d_c_s1008_a__regs_8h_1a36755f0e5dd4cfdb50003f78c49adf96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref><sp/>*<ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>register<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="137"><highlight class="comment">*<sp/>Function<sp/>Prototypes</highlight></codeline>
+<codeline lineno="138"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">*<sp/>External<sp/>Variables</highlight></codeline>
+<codeline lineno="144"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="152"><highlight class="comment">*<sp/>End<sp/>of<sp/>File</highlight></codeline>
+<codeline lineno="153"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="EF_ADCS1008A_regs.h"/>
+  </compounddef>
+</doxygen>

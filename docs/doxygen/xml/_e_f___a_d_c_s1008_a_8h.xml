@@ -1,0 +1,2349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_e_f___a_d_c_s1008_a_8h" kind="file" language="C++">
+    <compoundname>EF_ADCS1008A.h</compoundname>
+    <includes refid="_e_f___driver___common_8h" local="yes">EF_Driver_Common.h</includes>
+    <includedby refid="_e_f___a_d_c_s1008_a_8c" local="yes">EF_ADCS1008A.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>EF_ADCS1008A.h</label>
+        <link refid="_e_f___a_d_c_s1008_a_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EF_Driver_Common.h</label>
+        <link refid="_e_f___driver___common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>EF_ADCS1008A.c</label>
+        <link refid="_e_f___a_d_c_s1008_a_8c"/>
+      </node>
+      <node id="1">
+        <label>EF_ADCS1008A.h</label>
+        <link refid="_e_f___a_d_c_s1008_a_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" prot="public">_EF_ADCS1008A_TYPE_</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a470cd5845bed94d8b8b358933e4a3442" prot="public" static="no">
+        <name>IO_TYPES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="43" column="9" bodyfile="EF_ADCS1008A.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aef00c279597b188e4cdd14d288ddf77a" prot="public" static="no">
+        <name>__R</name>
+        <initializer>volatile const uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="44" column="11" bodyfile="EF_ADCS1008A.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ad8cfe7014044235a4c8d3239c2597f09" prot="public" static="no">
+        <name>__W</name>
+        <initializer>volatile       uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="45" column="11" bodyfile="EF_ADCS1008A.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a81f369079976a46554fd9798ab035697" prot="public" static="no">
+        <name>__RW</name>
+        <initializer>volatile       uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="46" column="11" bodyfile="EF_ADCS1008A.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a8a227a05f21b54714fb165c3f1ca11fe" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_CLKDIV_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="49" column="9" bodyfile="EF_ADCS1008A.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1af4181c564321fcfcb840c6dd7ff439f4" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_CLKDIV_MASK</name>
+        <initializer>((uint32_t)0xff)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="50" column="9" bodyfile="EF_ADCS1008A.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1acfd984489fec381c1059d97042b8807d" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="51" column="9" bodyfile="EF_ADCS1008A.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a9d45ecbc17ff96fea608b67d09b3fdb9" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_MASK</name>
+        <initializer>((uint32_t)0xff00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="52" column="9" bodyfile="EF_ADCS1008A.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a29f9a6000a3686c1bfba35506c1a6114" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SWIDTH_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="53" column="9" bodyfile="EF_ADCS1008A.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a343bdf053b358bfe22c99116ce480687" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_SWIDTH_MASK</name>
+        <initializer>((uint32_t)0xf0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="54" column="9" bodyfile="EF_ADCS1008A.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ab936b1e619bcbec2db1baeb812297f5f" prot="public" static="no">
+        <name>EF_ADCS1008A_TCTRL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="55" column="9" bodyfile="EF_ADCS1008A.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a51f09fd947661c6ddd8fc6086e184c43" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_CHANNEL_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="57" column="9" bodyfile="EF_ADCS1008A.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a79b921899b57384befe1835575a62ac8" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_CHANNEL_MASK</name>
+        <initializer>((uint32_t)0x7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="58" column="9" bodyfile="EF_ADCS1008A.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a3bf33aab0270ae6dfb4b82d1e28542df" prot="public" static="no">
+        <name>EF_ADCS1008A_CHSEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="59" column="9" bodyfile="EF_ADCS1008A.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ad0b9ea78e032a97e48c5fcf6154db878" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_EN_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="61" column="9" bodyfile="EF_ADCS1008A.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a2a5b5ff0c5b61036d2cb01993ce6e2dd" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_EN_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="62" column="9" bodyfile="EF_ADCS1008A.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aba4780645831df8ebd14e0960f0b8828" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_SEQEN_BIT</name>
+        <initializer>((uint32_t)1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="63" column="9" bodyfile="EF_ADCS1008A.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a949015128dafa93224966616564f4157" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_SEQEN_MASK</name>
+        <initializer>((uint32_t)0x2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="64" column="9" bodyfile="EF_ADCS1008A.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a2e39eb4a9f57ff5d79d8d442605fe9a3" prot="public" static="no">
+        <name>EF_ADCS1008A_CTRL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="65" column="9" bodyfile="EF_ADCS1008A.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ae6a363f334a585cfcd1a5a9bf4e546bf" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_SOC_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="67" column="9" bodyfile="EF_ADCS1008A.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ae5204fcb1feb22569de161ad944df876" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_SOC_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="68" column="9" bodyfile="EF_ADCS1008A.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a07854c2ec4b8ebc0c35c03abe92c9bff" prot="public" static="no">
+        <name>EF_ADCS1008A_SOC_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="69" column="9" bodyfile="EF_ADCS1008A.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ad653aa3eaf566463e75c5969282ebd48" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="71" column="9" bodyfile="EF_ADCS1008A.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a7350d36a12e40101802df8a2426daf9d" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="72" column="9" bodyfile="EF_ADCS1008A.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aebd4a116c4a5ec155675a2ba3398beb9" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="73" column="9" bodyfile="EF_ADCS1008A.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aeb2e422578edbf1de3abbdac2c79a514" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_MASK</name>
+        <initializer>((uint32_t)0x1f00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="74" column="9" bodyfile="EF_ADCS1008A.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ac0d336573278a6630c00323ad5f4e5d5" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="75" column="9" bodyfile="EF_ADCS1008A.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a460daab106695ebd98f4afe2fdba2451" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_MASK</name>
+        <initializer>((uint32_t)0x1f0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="76" column="9" bodyfile="EF_ADCS1008A.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a4899de5c7ea08660626296b49157c3b9" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_BIT</name>
+        <initializer>((uint32_t)24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="77" column="9" bodyfile="EF_ADCS1008A.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a22a0daeb45b7ee42c9b270ef2982c185" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_MASK</name>
+        <initializer>((uint32_t)0x1f000000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="78" column="9" bodyfile="EF_ADCS1008A.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a000115bc8ed6bbf2757c4522c0ccaf95" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL0_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="79" column="9" bodyfile="EF_ADCS1008A.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ac7a0695ed8afa07a2dae23c7d852d0cc" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="81" column="9" bodyfile="EF_ADCS1008A.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1acd99e2d1c80b229c05ddbf9fa3f6b662" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="82" column="9" bodyfile="EF_ADCS1008A.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a9107b4462d59b5fc4d1a3b1a58e981d6" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_BIT</name>
+        <initializer>((uint32_t)8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="83" column="9" bodyfile="EF_ADCS1008A.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a0a0d08d1236eac43c5b66026d454c538" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_MASK</name>
+        <initializer>((uint32_t)0x1f00)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="84" column="9" bodyfile="EF_ADCS1008A.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1acd1028fcb870bc43f8c73c1056d37de7" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_BIT</name>
+        <initializer>((uint32_t)16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="85" column="9" bodyfile="EF_ADCS1008A.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a256b872e01f51c4503a2799349b6a5af" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_MASK</name>
+        <initializer>((uint32_t)0x1f0000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="86" column="9" bodyfile="EF_ADCS1008A.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aa7a1778cd4b8c87ebc980334a7ad3025" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_BIT</name>
+        <initializer>((uint32_t)24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="87" column="9" bodyfile="EF_ADCS1008A.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a502a42a3d6b492a55d65c46a21783059" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_MASK</name>
+        <initializer>((uint32_t)0x1f000000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="88" column="9" bodyfile="EF_ADCS1008A.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aa8f8b4d9d9408dbbbd632193047c6336" prot="public" static="no">
+        <name>EF_ADCS1008A_SEQCTRL1_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0xFFFFFFFF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="89" column="9" bodyfile="EF_ADCS1008A.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a88e27fb90e473270a5441da550ab902b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_DATA_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="91" column="9" bodyfile="EF_ADCS1008A.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a66ad5e2f63139e28f756155f446a35f2" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_DATA_MASK</name>
+        <initializer>((uint32_t)0x3ff)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="92" column="9" bodyfile="EF_ADCS1008A.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a580441b187cfa287b8bf8eb82dfbd980" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x3FF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="93" column="9" bodyfile="EF_ADCS1008A.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a0b15e125d8881c68a7b817c158ea1a44" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="95" column="9" bodyfile="EF_ADCS1008A.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1abda2031c4cb9d1060c3d2ea43adec805" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="96" column="9" bodyfile="EF_ADCS1008A.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aa219492a08fb2491700de062cbde7df7" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFOLEVEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="97" column="9" bodyfile="EF_ADCS1008A.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1aba97ac4699fb7a8ad03a0c7a6590829c" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="99" column="9" bodyfile="EF_ADCS1008A.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a77ffa77ab2afc47168ad23f7aeace4d5" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="100" column="9" bodyfile="EF_ADCS1008A.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1ac9cba2e85dcfeaa8d3724134243ef8c3" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="101" column="9" bodyfile="EF_ADCS1008A.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a866a152f57f83ee1c24ab8216da12636" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="103" column="9" bodyfile="EF_ADCS1008A.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a937be0dbd6420d9a3b661a2eff14f71c" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_MASK</name>
+        <initializer>((uint32_t)0x1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="104" column="9" bodyfile="EF_ADCS1008A.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a812cef54f892c00d0a262a8f015d958b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1F)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="105" column="9" bodyfile="EF_ADCS1008A.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a2a06eaa504ebf6e1111db3739ab7573f" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_BIT</name>
+        <initializer>((uint32_t)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="107" column="9" bodyfile="EF_ADCS1008A.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a930ced4415198cb02eba8b1b79b98697" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_MASK</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="108" column="9" bodyfile="EF_ADCS1008A.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1add3a262ed7741376d291c559da1ec99b" prot="public" static="no">
+        <name>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_MAX_VALUE</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="109" column="9" bodyfile="EF_ADCS1008A.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a9d628e6e9540f3ea5d07785d17107539" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFO_FULL_FLAG</name>
+        <initializer>((uint32_t)0x1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="112" column="9" bodyfile="EF_ADCS1008A.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a066f3de73a56dc802a4f46bbe6521e26" prot="public" static="no">
+        <name>EF_ADCS1008A_FIFO_LEVEL_FLAG</name>
+        <initializer>((uint32_t)0x2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="113" column="9" bodyfile="EF_ADCS1008A.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_e_f___a_d_c_s1008_a_8h_1a282763bbe69dbf5f0580cea65e34eff7" prot="public" static="no">
+        <name>EF_ADCS1008A_EOC_FLAG</name>
+        <initializer>((uint32_t)0x4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="114" column="9" bodyfile="EF_ADCS1008A.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_e_f___a_d_c_s1008_a_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" prot="public" static="no">
+        <type>struct <ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref></type>
+        <definition>typedef struct _EF_ADCS1008A_TYPE_ EF_ADCS1008A_TYPE</definition>
+        <argsstring></argsstring>
+        <name>EF_ADCS1008A_TYPE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="140" column="19"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" prot="public" static="no">
+        <type>struct <ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref> *</type>
+        <definition>typedef struct _EF_ADCS1008A_TYPE_* EF_ADCS1008A_TYPE_PTR</definition>
+        <argsstring></argsstring>
+        <name>EF_ADCS1008A_TYPE_PTR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="142" column="34" bodyfile="EF_ADCS1008A.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a215124081722de6a3f8ff9504c839bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setClockDivider</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, char value)</argsstring>
+        <name>EF_ADCS1008A_setClockDivider</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the clock divider value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="157" column="18" bodyfile="EF_ADCS1008A.c" bodystart="39" bodyend="57" declfile="EF_ADCS1008A.h" declline="157" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1acf239237979f59ebae7534437516f94c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setSampleDivider</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, char value)</argsstring>
+        <name>EF_ADCS1008A_setSampleDivider</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sample divider value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="165" column="18" bodyfile="EF_ADCS1008A.c" bodystart="59" bodyend="77" declfile="EF_ADCS1008A.h" declline="165" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a2e184de7c3f5014b5f7abe4d4a3a74b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setTimerCtrlReg</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setTimerCtrlReg</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the timer control register value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="173" column="18" bodyfile="EF_ADCS1008A.c" bodystart="79" bodyend="93" declfile="EF_ADCS1008A.h" declline="173" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a83dabe98735cbd83bc58fbb98b643252" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getTimerCtrlReg</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *ctrl_value)</argsstring>
+        <name>EF_ADCS1008A_getTimerCtrlReg</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>ctrl_value</declname>
+        </param>
+        <briefdescription>
+<para>Gets the timer control register value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ctrl_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="182" column="18" bodyfile="EF_ADCS1008A.c" bodystart="95" bodyend="107" declfile="EF_ADCS1008A.h" declline="182" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1ae2be6a34581363fdad7feec75f2c933a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setChannelNumber</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setChannelNumber</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the channel number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="190" column="18" bodyfile="EF_ADCS1008A.c" bodystart="111" bodyend="125" declfile="EF_ADCS1008A.h" declline="190" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a2158ed4c8d0614ca0a5e8e527a475e20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getChannelNumber</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *channel_number)</argsstring>
+        <name>EF_ADCS1008A_getChannelNumber</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>channel_number</declname>
+        </param>
+        <briefdescription>
+<para>Gets the channel number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">channel_number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="198" column="18" bodyfile="EF_ADCS1008A.c" bodystart="127" bodyend="141" declfile="EF_ADCS1008A.h" declline="198" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a0566413b8a58ed5b535c6f7923c73cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_enable</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, bool enable)</argsstring>
+        <name>EF_ADCS1008A_enable</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Enables or disables the ADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="207" column="18" bodyfile="EF_ADCS1008A.c" bodystart="143" bodyend="161" declfile="EF_ADCS1008A.h" declline="207" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a6f93612136b260cd39dc7b94e54b10f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_sequencerEnable</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, bool enable)</argsstring>
+        <name>EF_ADCS1008A_sequencerEnable</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Enables or disables the sequencer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="216" column="18" bodyfile="EF_ADCS1008A.c" bodystart="163" bodyend="181" declfile="EF_ADCS1008A.h" declline="216" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a69fc47cc65907865a0429dca6bdcacd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setCtrlReg</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setCtrlReg</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the control register value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="225" column="18" bodyfile="EF_ADCS1008A.c" bodystart="183" bodyend="196" declfile="EF_ADCS1008A.h" declline="225" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a62e3a91d0eb7fb69175d49d617c1d2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getCtrlReg</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *ctrl_value)</argsstring>
+        <name>EF_ADCS1008A_getCtrlReg</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>ctrl_value</declname>
+        </param>
+        <briefdescription>
+<para>Gets the control register value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ctrl_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="233" column="18" bodyfile="EF_ADCS1008A.c" bodystart="198" bodyend="213" declfile="EF_ADCS1008A.h" declline="233" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1afb89d7b4763110d6a8db7cf3b40d2d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStartConversion</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, bool start)</argsstring>
+        <name>EF_ADCS1008A_setStartConversion</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>Sets the start conversion bit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="242" column="18" bodyfile="EF_ADCS1008A.c" bodystart="215" bodyend="232" declfile="EF_ADCS1008A.h" declline="242" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1ae9d735eeed1f2ab1158e105dc435eb7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getStartConversion</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *value)</argsstring>
+        <name>EF_ADCS1008A_getStartConversion</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Gets the start conversion bit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="250" column="18" bodyfile="EF_ADCS1008A.c" bodystart="234" bodyend="247" declfile="EF_ADCS1008A.h" declline="250" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a06391c197219774fabb69ae9ca30c391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep0</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep0</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 0 value in the sequencer control register 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="259" column="18" bodyfile="EF_ADCS1008A.c" bodystart="249" bodyend="267" declfile="EF_ADCS1008A.h" declline="259" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a5b907b98d8465a32c72b0d6cc03b3cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep1</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep1</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 1 value in the sequencer control register 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="267" column="18" bodyfile="EF_ADCS1008A.c" bodystart="268" bodyend="288" declfile="EF_ADCS1008A.h" declline="267" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a8b7002250243f58c4603a904f9335d58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep2</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep2</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 2 value in the sequencer control register 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="276" column="18" bodyfile="EF_ADCS1008A.c" bodystart="290" bodyend="306" declfile="EF_ADCS1008A.h" declline="276" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1aa99b5b974be67b2863664ea2fd2c626b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep3</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep3</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 3 value in the sequencer control register 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="285" column="18" bodyfile="EF_ADCS1008A.c" bodystart="308" bodyend="324" declfile="EF_ADCS1008A.h" declline="285" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1ac446f1498a592acf540c0b140af3ced6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setSeqCtrlReg0</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setSeqCtrlReg0</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sequencer control register 0 value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="294" column="18" bodyfile="EF_ADCS1008A.c" bodystart="326" bodyend="337" declfile="EF_ADCS1008A.h" declline="294" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a02b0645031336312593670285c359ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getSeqCtrlReg0</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *seq_ctrl_value)</argsstring>
+        <name>EF_ADCS1008A_getSeqCtrlReg0</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>seq_ctrl_value</declname>
+        </param>
+        <briefdescription>
+<para>Gets the sequencer control register 0 value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">seq_ctrl_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="303" column="18" bodyfile="EF_ADCS1008A.c" bodystart="339" bodyend="353" declfile="EF_ADCS1008A.h" declline="303" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a831354e2c5e583eef9659f912692300b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep4</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep4</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 4 value in the sequencer control register 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="312" column="18" bodyfile="EF_ADCS1008A.c" bodystart="355" bodyend="372" declfile="EF_ADCS1008A.h" declline="312" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1afeaa7ca93257f62027a55d2bf2ccce13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep5</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep5</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 5 value in the sequencer control register 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="321" column="18" bodyfile="EF_ADCS1008A.c" bodystart="374" bodyend="390" declfile="EF_ADCS1008A.h" declline="321" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a6960ebc13de7c393d55e166a6e80f581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep6</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep6</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 6 value in the sequencer control register 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="330" column="18" bodyfile="EF_ADCS1008A.c" bodystart="392" bodyend="409" declfile="EF_ADCS1008A.h" declline="330" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a0945c6f49eb4874d4d68efdba4a6f090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setStep7</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setStep7</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the step 7 value in the sequencer control register 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="339" column="18" bodyfile="EF_ADCS1008A.c" bodystart="411" bodyend="428" declfile="EF_ADCS1008A.h" declline="339" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1aa6e70774e99c1786f377c85e849349a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setSeqCtrlReg1</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setSeqCtrlReg1</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sequencer control register 1 value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="348" column="18" bodyfile="EF_ADCS1008A.c" bodystart="430" bodyend="441" declfile="EF_ADCS1008A.h" declline="348" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1aa18d7fe4dcb426bec6fdb80549cde38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getSeqCtrlReg1</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *seq_ctrl_value)</argsstring>
+        <name>EF_ADCS1008A_getSeqCtrlReg1</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>seq_ctrl_value</declname>
+        </param>
+        <briefdescription>
+<para>Gets the sequencer control register 1 value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">seq_ctrl_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="357" column="18" bodyfile="EF_ADCS1008A.c" bodystart="444" bodyend="457" declfile="EF_ADCS1008A.h" declline="357" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a5e89d5152755e393910661c0e1bc82ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getDataReg</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *data)</argsstring>
+        <name>EF_ADCS1008A_getDataReg</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Gets the data register value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="367" column="18" bodyfile="EF_ADCS1008A.c" bodystart="459" bodyend="472" declfile="EF_ADCS1008A.h" declline="367" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a3fe7ace4728c0db978cadd010d8650ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setFIFOlevel</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setFIFOlevel</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the FIFO level value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="376" column="18" bodyfile="EF_ADCS1008A.c" bodystart="474" bodyend="486" declfile="EF_ADCS1008A.h" declline="376" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a35dcbdd45db3491d98f7b499a68b8919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getFIFOlevel</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *fifo_level)</argsstring>
+        <name>EF_ADCS1008A_getFIFOlevel</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>fifo_level</declname>
+        </param>
+        <briefdescription>
+<para>Gets the FIFO level value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">fifo_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="386" column="18" bodyfile="EF_ADCS1008A.c" bodystart="488" bodyend="499" declfile="EF_ADCS1008A.h" declline="386" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1ad9bfa304b028ac0e7fdc21341427cb3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getRIS</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *ris)</argsstring>
+        <name>EF_ADCS1008A_getRIS</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>ris</declname>
+        </param>
+        <briefdescription>
+<para>Gets th raw interrupt status value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ris</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="396" column="18" bodyfile="EF_ADCS1008A.c" bodystart="502" bodyend="514" declfile="EF_ADCS1008A.h" declline="396" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1a0c9c90ff1a3298118b15ae342b9c96c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getMIS</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *mis)</argsstring>
+        <name>EF_ADCS1008A_getMIS</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>mis</declname>
+        </param>
+        <briefdescription>
+<para>Gets the masked interrupt status value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">mis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="405" column="18" bodyfile="EF_ADCS1008A.c" bodystart="516" bodyend="527" declfile="EF_ADCS1008A.h" declline="405" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1af3a8c712bf11fc09e32029b57bc6e3ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setIM</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setIM</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the interrupt mask value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="414" column="18" bodyfile="EF_ADCS1008A.c" bodystart="529" bodyend="541" declfile="EF_ADCS1008A.h" declline="414" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1af65a56467240038ca3e3782469015125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_getIM</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t *im)</argsstring>
+        <name>EF_ADCS1008A_getIM</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>im</declname>
+        </param>
+        <briefdescription>
+<para>Gets the interrupt mask value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">im</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be read </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="423" column="18" bodyfile="EF_ADCS1008A.c" bodystart="543" bodyend="555" declfile="EF_ADCS1008A.h" declline="423" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="_e_f___a_d_c_s1008_a_8h_1aca40c92eaa64582a8b447928d1c7874a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref></type>
+        <definition>EF_DRIVER_STATUS EF_ADCS1008A_setIC</definition>
+        <argsstring>(EF_ADCS1008A_TYPE_PTR adc, uint32_t value)</argsstring>
+        <name>EF_ADCS1008A_setIC</name>
+        <param>
+          <type><ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref></type>
+          <declname>adc</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the interrupt clear value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An <ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>. The pointer to the ADCS1008A registers structure </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>EF_DRIVER_STATUS </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="432" column="18" bodyfile="EF_ADCS1008A.c" bodystart="557" bodyend="568" declfile="EF_ADCS1008A.h" declline="432" declcolumn="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>C header file for the EF_ADCS1008A IP. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>2023<sp/>Efabless<sp/>Corp.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>Author:<sp/>Mohamed<sp/>Shalan<sp/>(mshalan@efabless.com)</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>This<sp/>file<sp/>is<sp/>auto-generated<sp/>by<sp/>wrapper_gen.py<sp/>on<sp/>2023-11-28</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EF_ADCS1008A_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*<sp/>Includes</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_e_f___driver___common_8h" kindref="compound">EF_Driver_Common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/>Macros<sp/>and<sp/>Constants</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>IO_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="_e_f___a_d_c_s1008_a_8h_1a470cd5845bed94d8b8b358933e4a3442" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IO_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="_e_f___a_d_c_s1008_a_8h_1aef00c279597b188e4cdd14d288ddf77a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__R<sp/><sp/><sp/><sp/><sp/>volatile<sp/>const<sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="_e_f___a_d_c_s1008_a_8h_1ad8cfe7014044235a4c8d3239c2597f09" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__W<sp/><sp/><sp/><sp/><sp/>volatile<sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_e_f___a_d_c_s1008_a_8h_1a81f369079976a46554fd9798ab035697" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>__RW<sp/><sp/><sp/><sp/>volatile<sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="_e_f___a_d_c_s1008_a_8h_1a8a227a05f21b54714fb165c3f1ca11fe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_CLKDIV_BIT<sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_e_f___a_d_c_s1008_a_8h_1af4181c564321fcfcb840c6dd7ff439f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_CLKDIV_MASK<sp/><sp/>((uint32_t)0xff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="_e_f___a_d_c_s1008_a_8h_1acfd984489fec381c1059d97042b8807d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_BIT<sp/><sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="_e_f___a_d_c_s1008_a_8h_1a9d45ecbc17ff96fea608b67d09b3fdb9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SAMPLE_DIV_MASK<sp/><sp/>((uint32_t)0xff00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_e_f___a_d_c_s1008_a_8h_1a29f9a6000a3686c1bfba35506c1a6114" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SWIDTH_BIT<sp/><sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="_e_f___a_d_c_s1008_a_8h_1a343bdf053b358bfe22c99116ce480687" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_SWIDTH_MASK<sp/><sp/>((uint32_t)0xf0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_e_f___a_d_c_s1008_a_8h_1ab936b1e619bcbec2db1baeb812297f5f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_TCTRL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="_e_f___a_d_c_s1008_a_8h_1a51f09fd947661c6ddd8fc6086e184c43" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_CHANNEL_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_e_f___a_d_c_s1008_a_8h_1a79b921899b57384befe1835575a62ac8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_CHANNEL_MASK<sp/>((uint32_t)0x7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_e_f___a_d_c_s1008_a_8h_1a3bf33aab0270ae6dfb4b82d1e28542df" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CHSEL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0x7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="_e_f___a_d_c_s1008_a_8h_1ad0b9ea78e032a97e48c5fcf6154db878" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_EN_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_e_f___a_d_c_s1008_a_8h_1a2a5b5ff0c5b61036d2cb01993ce6e2dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_EN_MASK<sp/><sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_e_f___a_d_c_s1008_a_8h_1aba4780645831df8ebd14e0960f0b8828" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_SEQEN_BIT<sp/>((uint32_t)1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="_e_f___a_d_c_s1008_a_8h_1a949015128dafa93224966616564f4157" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_SEQEN_MASK<sp/><sp/><sp/><sp/>((uint32_t)0x2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_e_f___a_d_c_s1008_a_8h_1a2e39eb4a9f57ff5d79d8d442605fe9a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_CTRL_REG_MAX_VALUE<sp/>((uint32_t)0x3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="_e_f___a_d_c_s1008_a_8h_1ae6a363f334a585cfcd1a5a9bf4e546bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_SOC_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="_e_f___a_d_c_s1008_a_8h_1ae5204fcb1feb22569de161ad944df876" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_SOC_MASK<sp/><sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="_e_f___a_d_c_s1008_a_8h_1a07854c2ec4b8ebc0c35c03abe92c9bff" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SOC_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="_e_f___a_d_c_s1008_a_8h_1ad653aa3eaf566463e75c5969282ebd48" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="_e_f___a_d_c_s1008_a_8h_1a7350d36a12e40101802df8a2426daf9d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ0_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="_e_f___a_d_c_s1008_a_8h_1aebd4a116c4a5ec155675a2ba3398beb9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_BIT<sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_e_f___a_d_c_s1008_a_8h_1aeb2e422578edbf1de3abbdac2c79a514" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ1_MASK<sp/>((uint32_t)0x1f00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="_e_f___a_d_c_s1008_a_8h_1ac0d336573278a6630c00323ad5f4e5d5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_BIT<sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="_e_f___a_d_c_s1008_a_8h_1a460daab106695ebd98f4afe2fdba2451" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ2_MASK<sp/>((uint32_t)0x1f0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="_e_f___a_d_c_s1008_a_8h_1a4899de5c7ea08660626296b49157c3b9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_BIT<sp/><sp/>((uint32_t)24)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="_e_f___a_d_c_s1008_a_8h_1a22a0daeb45b7ee42c9b270ef2982c185" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_SEQ3_MASK<sp/>((uint32_t)0x1f000000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="_e_f___a_d_c_s1008_a_8h_1a000115bc8ed6bbf2757c4522c0ccaf95" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL0_REG_MAX_VALUE<sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="_e_f___a_d_c_s1008_a_8h_1ac7a0695ed8afa07a2dae23c7d852d0cc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="_e_f___a_d_c_s1008_a_8h_1acd99e2d1c80b229c05ddbf9fa3f6b662" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ4_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="_e_f___a_d_c_s1008_a_8h_1a9107b4462d59b5fc4d1a3b1a58e981d6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_BIT<sp/><sp/>((uint32_t)8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="_e_f___a_d_c_s1008_a_8h_1a0a0d08d1236eac43c5b66026d454c538" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ5_MASK<sp/>((uint32_t)0x1f00)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="_e_f___a_d_c_s1008_a_8h_1acd1028fcb870bc43f8c73c1056d37de7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_BIT<sp/><sp/>((uint32_t)16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="_e_f___a_d_c_s1008_a_8h_1a256b872e01f51c4503a2799349b6a5af" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ6_MASK<sp/>((uint32_t)0x1f0000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="_e_f___a_d_c_s1008_a_8h_1aa7a1778cd4b8c87ebc980334a7ad3025" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_BIT<sp/><sp/>((uint32_t)24)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="_e_f___a_d_c_s1008_a_8h_1a502a42a3d6b492a55d65c46a21783059" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_SEQ7_MASK<sp/>((uint32_t)0x1f000000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="_e_f___a_d_c_s1008_a_8h_1aa8f8b4d9d9408dbbbd632193047c6336" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_SEQCTRL1_REG_MAX_VALUE<sp/>((uint32_t)0xFFFFFFFF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="_e_f___a_d_c_s1008_a_8h_1a88e27fb90e473270a5441da550ab902b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_DATA_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="_e_f___a_d_c_s1008_a_8h_1a66ad5e2f63139e28f756155f446a35f2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_DATA_MASK<sp/>((uint32_t)0x3ff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="_e_f___a_d_c_s1008_a_8h_1a580441b187cfa287b8bf8eb82dfbd980" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_REG_MAX_VALUE<sp/>((uint32_t)0x3FF)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="_e_f___a_d_c_s1008_a_8h_1a0b15e125d8881c68a7b817c158ea1a44" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_BIT<sp/><sp/><sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="_e_f___a_d_c_s1008_a_8h_1abda2031c4cb9d1060c3d2ea43adec805" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_VALUE_MASK<sp/><sp/><sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="_e_f___a_d_c_s1008_a_8h_1aa219492a08fb2491700de062cbde7df7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFOLEVEL_REG_MAX_VALUE<sp/><sp/><sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="_e_f___a_d_c_s1008_a_8h_1aba97ac4699fb7a8ad03a0c7a6590829c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="_e_f___a_d_c_s1008_a_8h_1a77ffa77ab2afc47168ad23f7aeace4d5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_LEVEL_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="_e_f___a_d_c_s1008_a_8h_1ac9cba2e85dcfeaa8d3724134243ef8c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_LEVEL_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="_e_f___a_d_c_s1008_a_8h_1a866a152f57f83ee1c24ab8216da12636" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="_e_f___a_d_c_s1008_a_8h_1a937be0dbd6420d9a3b661a2eff14f71c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_THRESHOLD_MASK<sp/>((uint32_t)0x1f)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="_e_f___a_d_c_s1008_a_8h_1a812cef54f892c00d0a262a8f015d958b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_THRESHOLD_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1F)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="_e_f___a_d_c_s1008_a_8h_1a2a06eaa504ebf6e1111db3739ab7573f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_BIT<sp/><sp/>((uint32_t)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="_e_f___a_d_c_s1008_a_8h_1a930ced4415198cb02eba8b1b79b98697" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_FLUSH_MASK<sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="_e_f___a_d_c_s1008_a_8h_1add3a262ed7741376d291c559da1ec99b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_DATA_FIFO_FLUSH_REG_MAX_VALUE<sp/><sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="_e_f___a_d_c_s1008_a_8h_1a9d628e6e9540f3ea5d07785d17107539" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFO_FULL_FLAG<sp/>((uint32_t)0x1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="_e_f___a_d_c_s1008_a_8h_1a066f3de73a56dc802a4f46bbe6521e26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_FIFO_LEVEL_FLAG<sp/><sp/><sp/><sp/>((uint32_t)0x2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="_e_f___a_d_c_s1008_a_8h_1a282763bbe69dbf5f0580cea65e34eff7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EF_ADCS1008A_EOC_FLAG<sp/><sp/><sp/>((uint32_t)0x4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">*<sp/>Typedefs<sp/>and<sp/>Enums</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref><sp/>{</highlight></codeline>
+<codeline lineno="123" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a0e32fc4b8b97a47f5b97e017ea56f56e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a0e32fc4b8b97a47f5b97e017ea56f56e" kindref="member">TCTRL</ref>;</highlight></codeline>
+<codeline lineno="124" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1acfbb2bd3868f3427d2a78e843a048e34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1acfbb2bd3868f3427d2a78e843a048e34" kindref="member">CHSEL</ref>;</highlight></codeline>
+<codeline lineno="125" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6412464e03af8ac4f17f3af5f6e2bd59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6412464e03af8ac4f17f3af5f6e2bd59" kindref="member">CTRL</ref>;</highlight></codeline>
+<codeline lineno="126" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1c35047892c0514f208a2dd17d70e63f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1c35047892c0514f208a2dd17d70e63f" kindref="member">SOC</ref>;</highlight></codeline>
+<codeline lineno="127" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aba020ceed6c8aead05b1604544abca58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aba020ceed6c8aead05b1604544abca58" kindref="member">SEQCTRL0</ref>;</highlight></codeline>
+<codeline lineno="128" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad864a3f6e6b5dcd83bbe23fabfdb3dbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad864a3f6e6b5dcd83bbe23fabfdb3dbf" kindref="member">SEQCTRL1</ref>;</highlight></codeline>
+<codeline lineno="129" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a8f348683e6bba29a70435b83cd4570b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a8f348683e6bba29a70435b83cd4570b8" kindref="member">DATA</ref>;</highlight></codeline>
+<codeline lineno="130" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad76c2be667a0f0a47c26a1804bae391a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad76c2be667a0f0a47c26a1804bae391a" kindref="member">FIFOLEVEL</ref>;</highlight></codeline>
+<codeline lineno="131" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6f7f00666600b805b45eeac49ad0fa0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6f7f00666600b805b45eeac49ad0fa0f" kindref="member">reserved_0</ref>[16248];</highlight></codeline>
+<codeline lineno="132" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ae20ffbbaca6e2b13ff2918a8a7ab0b49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ae20ffbbaca6e2b13ff2918a8a7ab0b49" kindref="member">DATA_FIFO_LEVEL</ref>;</highlight></codeline>
+<codeline lineno="133" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6a405e72ca47929a1a016f17b899a0f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6a405e72ca47929a1a016f17b899a0f2" kindref="member">DATA_FIFO_THRESHOLD</ref>;</highlight></codeline>
+<codeline lineno="134" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a46d834f7481a537e3ad145092e0ed543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a46d834f7481a537e3ad145092e0ed543" kindref="member">DATA_FIFO_FLUSH</ref>;</highlight></codeline>
+<codeline lineno="135" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ac34673f8f884a689ff7ce5aff1266245" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ac34673f8f884a689ff7ce5aff1266245" kindref="member">reserved_1</ref>[61];</highlight></codeline>
+<codeline lineno="136" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a2fab53caf4c0f4bc9002ca063c79c59a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a2fab53caf4c0f4bc9002ca063c79c59a" kindref="member">IM</ref>;</highlight></codeline>
+<codeline lineno="137" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aeb9a486a0bd367132d2711cc03748423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aeb9a486a0bd367132d2711cc03748423" kindref="member">MIS</ref>;</highlight></codeline>
+<codeline lineno="138" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1fa6ea8fb9307137c5ab3d356303de03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1fa6ea8fb9307137c5ab3d356303de03" kindref="member">RIS</ref>;</highlight></codeline>
+<codeline lineno="139" refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6b80dc3c8782a663cbcdfde7c5c51088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6b80dc3c8782a663cbcdfde7c5c51088" kindref="member">IC</ref>;</highlight></codeline>
+<codeline lineno="140" refid="_e_f___a_d_c_s1008_a_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" refkind="member"><highlight class="normal">}<sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a852ddd95d4dff9194bf1742f3eb41ed0" kindref="member">EF_ADCS1008A_TYPE</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">_EF_ADCS1008A_TYPE_</ref><sp/>*<ref refid="_e_f___a_d_c_s1008_a_8h_1a36755f0e5dd4cfdb50003f78c49adf96" kindref="member">EF_ADCS1008A_TYPE_PTR</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>register<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="148"><highlight class="comment">*<sp/>Function<sp/>Prototypes</highlight></codeline>
+<codeline lineno="149"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a215124081722de6a3f8ff9504c839bdc" kindref="member">EF_ADCS1008A_setClockDivider</ref>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1acf239237979f59ebae7534437516f94c" kindref="member">EF_ADCS1008A_setSampleDivider</ref>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a2e184de7c3f5014b5f7abe4d4a3a74b5" kindref="member">EF_ADCS1008A_setTimerCtrlReg</ref>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a83dabe98735cbd83bc58fbb98b643252" kindref="member">EF_ADCS1008A_getTimerCtrlReg</ref>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*ctrl_value);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1ae2be6a34581363fdad7feec75f2c933a" kindref="member">EF_ADCS1008A_setChannelNumber</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a2158ed4c8d0614ca0a5e8e527a475e20" kindref="member">EF_ADCS1008A_getChannelNumber</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*channel_number);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a0566413b8a58ed5b535c6f7923c73cbb" kindref="member">EF_ADCS1008A_enable</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a6f93612136b260cd39dc7b94e54b10f7" kindref="member">EF_ADCS1008A_sequencerEnable</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a69fc47cc65907865a0429dca6bdcacd8" kindref="member">EF_ADCS1008A_setCtrlReg</ref>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a62e3a91d0eb7fb69175d49d617c1d2c5" kindref="member">EF_ADCS1008A_getCtrlReg</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*ctrl_value);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1afb89d7b4763110d6a8db7cf3b40d2d3a" kindref="member">EF_ADCS1008A_setStartConversion</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1ae9d735eeed1f2ab1158e105dc435eb7e" kindref="member">EF_ADCS1008A_getStartConversion</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*value);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a06391c197219774fabb69ae9ca30c391" kindref="member">EF_ADCS1008A_setStep0</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a5b907b98d8465a32c72b0d6cc03b3cf2" kindref="member">EF_ADCS1008A_setStep1</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a8b7002250243f58c4603a904f9335d58" kindref="member">EF_ADCS1008A_setStep2</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1aa99b5b974be67b2863664ea2fd2c626b" kindref="member">EF_ADCS1008A_setStep3</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1ac446f1498a592acf540c0b140af3ced6" kindref="member">EF_ADCS1008A_setSeqCtrlReg0</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a02b0645031336312593670285c359ba2" kindref="member">EF_ADCS1008A_getSeqCtrlReg0</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*seq_ctrl_value);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a831354e2c5e583eef9659f912692300b" kindref="member">EF_ADCS1008A_setStep4</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1afeaa7ca93257f62027a55d2bf2ccce13" kindref="member">EF_ADCS1008A_setStep5</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a6960ebc13de7c393d55e166a6e80f581" kindref="member">EF_ADCS1008A_setStep6</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a0945c6f49eb4874d4d68efdba4a6f090" kindref="member">EF_ADCS1008A_setStep7</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1aa6e70774e99c1786f377c85e849349a4" kindref="member">EF_ADCS1008A_setSeqCtrlReg1</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1aa18d7fe4dcb426bec6fdb80549cde38b" kindref="member">EF_ADCS1008A_getSeqCtrlReg1</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*seq_ctrl_value);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a5e89d5152755e393910661c0e1bc82ba" kindref="member">EF_ADCS1008A_getDataReg</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*data);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a3fe7ace4728c0db978cadd010d8650ad" kindref="member">EF_ADCS1008A_setFIFOlevel</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a35dcbdd45db3491d98f7b499a68b8919" kindref="member">EF_ADCS1008A_getFIFOlevel</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*fifo_level);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1ad9bfa304b028ac0e7fdc21341427cb3e" kindref="member">EF_ADCS1008A_getRIS</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*ris);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1a0c9c90ff1a3298118b15ae342b9c96c8" kindref="member">EF_ADCS1008A_getMIS</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*mis);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1af3a8c712bf11fc09e32029b57bc6e3ee" kindref="member">EF_ADCS1008A_setIM</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1af65a56467240038ca3e3782469015125" kindref="member">EF_ADCS1008A_getIM</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>*im);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><ref refid="_e_f___driver___common_8h_1ad1c99136d1edfd0a7757f5b81600a351" kindref="member">EF_DRIVER_STATUS</ref><sp/><ref refid="_e_f___a_d_c_s1008_a_8h_1aca40c92eaa64582a8b447928d1c7874a" kindref="member">EF_ADCS1008A_setIC</ref><sp/>(<ref refid="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kindref="compound">EF_ADCS1008A_TYPE_PTR</ref><sp/>adc,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="435"><highlight class="comment">*<sp/>External<sp/>Variables</highlight></codeline>
+<codeline lineno="436"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="438"><highlight class="normal"></highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>EF_ADCS1008A_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="442"><highlight class="comment">*<sp/>End<sp/>of<sp/>File</highlight></codeline>
+<codeline lineno="443"><highlight class="comment">******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="EF_ADCS1008A.h"/>
+  </compounddef>
+</doxygen>

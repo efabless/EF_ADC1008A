@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct___e_f___a_d_c_s1008_a___t_y_p_e__" kind="struct" language="C++" prot="public">
+    <compoundname>_EF_ADCS1008A_TYPE_</compoundname>
+    <includes refid="_e_f___a_d_c_s1008_a_8h" local="no">EF_ADCS1008A.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a0e32fc4b8b97a47f5b97e017ea56f56e" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::TCTRL</definition>
+        <argsstring></argsstring>
+        <name>TCTRL</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::TCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="123" column="5" bodyfile="EF_ADCS1008A.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1acfbb2bd3868f3427d2a78e843a048e34" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::CHSEL</definition>
+        <argsstring></argsstring>
+        <name>CHSEL</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::CHSEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="124" column="5" bodyfile="EF_ADCS1008A.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6412464e03af8ac4f17f3af5f6e2bd59" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::CTRL</definition>
+        <argsstring></argsstring>
+        <name>CTRL</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::CTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="125" column="5" bodyfile="EF_ADCS1008A.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1c35047892c0514f208a2dd17d70e63f" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::SOC</definition>
+        <argsstring></argsstring>
+        <name>SOC</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::SOC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="126" column="5" bodyfile="EF_ADCS1008A.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aba020ceed6c8aead05b1604544abca58" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::SEQCTRL0</definition>
+        <argsstring></argsstring>
+        <name>SEQCTRL0</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::SEQCTRL0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="127" column="5" bodyfile="EF_ADCS1008A.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad864a3f6e6b5dcd83bbe23fabfdb3dbf" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::SEQCTRL1</definition>
+        <argsstring></argsstring>
+        <name>SEQCTRL1</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::SEQCTRL1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="128" column="5" bodyfile="EF_ADCS1008A.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a8f348683e6bba29a70435b83cd4570b8" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::DATA</definition>
+        <argsstring></argsstring>
+        <name>DATA</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::DATA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="129" column="5" bodyfile="EF_ADCS1008A.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad76c2be667a0f0a47c26a1804bae391a" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::FIFOLEVEL</definition>
+        <argsstring></argsstring>
+        <name>FIFOLEVEL</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::FIFOLEVEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="130" column="5" bodyfile="EF_ADCS1008A.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6f7f00666600b805b45eeac49ad0fa0f" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref></type>
+        <definition>__R _EF_ADCS1008A_TYPE_::reserved_0</definition>
+        <argsstring>[16248]</argsstring>
+        <name>reserved_0</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::reserved_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="131" column="5" bodyfile="EF_ADCS1008A.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ae20ffbbaca6e2b13ff2918a8a7ab0b49" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref></type>
+        <definition>__R _EF_ADCS1008A_TYPE_::DATA_FIFO_LEVEL</definition>
+        <argsstring></argsstring>
+        <name>DATA_FIFO_LEVEL</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::DATA_FIFO_LEVEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="132" column="5" bodyfile="EF_ADCS1008A.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6a405e72ca47929a1a016f17b899a0f2" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref></type>
+        <definition>__W _EF_ADCS1008A_TYPE_::DATA_FIFO_THRESHOLD</definition>
+        <argsstring></argsstring>
+        <name>DATA_FIFO_THRESHOLD</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::DATA_FIFO_THRESHOLD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="133" column="5" bodyfile="EF_ADCS1008A.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a46d834f7481a537e3ad145092e0ed543" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref></type>
+        <definition>__W _EF_ADCS1008A_TYPE_::DATA_FIFO_FLUSH</definition>
+        <argsstring></argsstring>
+        <name>DATA_FIFO_FLUSH</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::DATA_FIFO_FLUSH</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="134" column="5" bodyfile="EF_ADCS1008A.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ac34673f8f884a689ff7ce5aff1266245" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref></type>
+        <definition>__R _EF_ADCS1008A_TYPE_::reserved_1</definition>
+        <argsstring>[61]</argsstring>
+        <name>reserved_1</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::reserved_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="135" column="5" bodyfile="EF_ADCS1008A.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a2fab53caf4c0f4bc9002ca063c79c59a" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1a81f369079976a46554fd9798ab035697" kindref="member">__RW</ref></type>
+        <definition>__RW _EF_ADCS1008A_TYPE_::IM</definition>
+        <argsstring></argsstring>
+        <name>IM</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::IM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="136" column="5" bodyfile="EF_ADCS1008A.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aeb9a486a0bd367132d2711cc03748423" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref></type>
+        <definition>__R _EF_ADCS1008A_TYPE_::MIS</definition>
+        <argsstring></argsstring>
+        <name>MIS</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::MIS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="137" column="5" bodyfile="EF_ADCS1008A.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1fa6ea8fb9307137c5ab3d356303de03" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1aef00c279597b188e4cdd14d288ddf77a" kindref="member">__R</ref></type>
+        <definition>__R _EF_ADCS1008A_TYPE_::RIS</definition>
+        <argsstring></argsstring>
+        <name>RIS</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::RIS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="138" column="5" bodyfile="EF_ADCS1008A.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6b80dc3c8782a663cbcdfde7c5c51088" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_f___a_d_c_s1008_a__regs_8h_1ad8cfe7014044235a4c8d3239c2597f09" kindref="member">__W</ref></type>
+        <definition>__W _EF_ADCS1008A_TYPE_::IC</definition>
+        <argsstring></argsstring>
+        <name>IC</name>
+        <qualifiedname>_EF_ADCS1008A_TYPE_::IC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EF_ADCS1008A.h" line="139" column="5" bodyfile="EF_ADCS1008A.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="EF_ADCS1008A.h" line="122" column="1" bodyfile="EF_ADCS1008A.h" bodystart="122" bodyend="140"/>
+    <listofallmembers>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1acfbb2bd3868f3427d2a78e843a048e34" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>CHSEL</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6412464e03af8ac4f17f3af5f6e2bd59" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>CTRL</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a8f348683e6bba29a70435b83cd4570b8" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>DATA</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a46d834f7481a537e3ad145092e0ed543" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>DATA_FIFO_FLUSH</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ae20ffbbaca6e2b13ff2918a8a7ab0b49" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>DATA_FIFO_LEVEL</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6a405e72ca47929a1a016f17b899a0f2" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>DATA_FIFO_THRESHOLD</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad76c2be667a0f0a47c26a1804bae391a" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>FIFOLEVEL</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6b80dc3c8782a663cbcdfde7c5c51088" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>IC</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a2fab53caf4c0f4bc9002ca063c79c59a" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>IM</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aeb9a486a0bd367132d2711cc03748423" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>MIS</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a6f7f00666600b805b45eeac49ad0fa0f" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>reserved_0</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ac34673f8f884a689ff7ce5aff1266245" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>reserved_1</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1fa6ea8fb9307137c5ab3d356303de03" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>RIS</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1aba020ceed6c8aead05b1604544abca58" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>SEQCTRL0</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1ad864a3f6e6b5dcd83bbe23fabfdb3dbf" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>SEQCTRL1</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a1c35047892c0514f208a2dd17d70e63f" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>SOC</name></member>
+      <member refid="struct___e_f___a_d_c_s1008_a___t_y_p_e___1a0e32fc4b8b97a47f5b97e017ea56f56e" prot="public" virt="non-virtual"><scope>_EF_ADCS1008A_TYPE_</scope><name>TCTRL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
