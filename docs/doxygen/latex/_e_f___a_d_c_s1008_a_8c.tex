@@ -1,0 +1,737 @@
+\hypertarget{_e_f___a_d_c_s1008_a_8c}{}\doxysection{EF\+\_\+\+ADCS1008\+A.\+c File Reference}
+\label{_e_f___a_d_c_s1008_a_8c}\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+
+
+C source file for the EF\+\_\+\+ADCS1008A IP.  
+
+
+{\ttfamily \#include \char`\"{}EF\+\_\+\+ADCS1008\+A.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a7fe256b81668f964209e3a9fc8ee6932}{EF\+\_\+\+ADCS1008\+A\+\_\+C}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a215124081722de6a3f8ff9504c839bdc}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Clock\+Divider}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, char value)
+\begin{DoxyCompactList}\small\item\em Sets the clock divider value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_acf239237979f59ebae7534437516f94c}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Sample\+Divider}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, char value)
+\begin{DoxyCompactList}\small\item\em Sets the sample divider value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_ab19849160c1495c51ea659005361c788}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Timer\+Ctrl\+Reg}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t mask)
+\begin{DoxyCompactList}\small\item\em Sets the timer control register value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a83dabe98735cbd83bc58fbb98b643252}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Timer\+Ctrl\+Reg}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$ctrl\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Gets the timer control register value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a207ee58b5e968aa7d83268f9a5c1b681}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Channel\+Number}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t mask)
+\begin{DoxyCompactList}\small\item\em Sets the channel number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a2158ed4c8d0614ca0a5e8e527a475e20}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Channel\+Number}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$channel\+\_\+number)
+\begin{DoxyCompactList}\small\item\em Gets the channel number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a0566413b8a58ed5b535c6f7923c73cbb}{EF\+\_\+\+ADCS1008\+A\+\_\+enable}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, bool enable)
+\begin{DoxyCompactList}\small\item\em Enables or disables the ADC. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a6f93612136b260cd39dc7b94e54b10f7}{EF\+\_\+\+ADCS1008\+A\+\_\+sequencer\+Enable}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, bool enable)
+\begin{DoxyCompactList}\small\item\em Enables or disables the sequencer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a1b531f7b95f37fbc534e419f01910873}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Ctrl\+Reg}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t mask)
+\begin{DoxyCompactList}\small\item\em Sets the control register value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a62e3a91d0eb7fb69175d49d617c1d2c5}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Ctrl\+Reg}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$ctrl\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Gets the control register value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_afb89d7b4763110d6a8db7cf3b40d2d3a}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Start\+Conversion}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, bool start)
+\begin{DoxyCompactList}\small\item\em Sets the start conversion bit. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_ae9d735eeed1f2ab1158e105dc435eb7e}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Start\+Conversion}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$value)
+\begin{DoxyCompactList}\small\item\em Gets the start conversion bit. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a06391c197219774fabb69ae9ca30c391}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step0}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 0 value in the sequencer control register 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a5b907b98d8465a32c72b0d6cc03b3cf2}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step1}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 1 value in the sequencer control register 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a8b7002250243f58c4603a904f9335d58}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step2}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 2 value in the sequencer control register 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_aa99b5b974be67b2863664ea2fd2c626b}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step3}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 3 value in the sequencer control register 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_ac446f1498a592acf540c0b140af3ced6}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Seq\+Ctrl\+Reg0}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the sequencer control register 0 value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a02b0645031336312593670285c359ba2}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Seq\+Ctrl\+Reg0}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$seq\+\_\+ctrl\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Gets the sequencer control register 0 value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a831354e2c5e583eef9659f912692300b}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step4}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 4 value in the sequencer control register 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_afeaa7ca93257f62027a55d2bf2ccce13}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step5}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 5 value in the sequencer control register 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a6960ebc13de7c393d55e166a6e80f581}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step6}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 6 value in the sequencer control register 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a0945c6f49eb4874d4d68efdba4a6f090}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step7}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the step 7 value in the sequencer control register 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_aa6e70774e99c1786f377c85e849349a4}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+Seq\+Ctrl\+Reg1}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the sequencer control register 1 value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_aa18d7fe4dcb426bec6fdb80549cde38b}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Seq\+Ctrl\+Reg1}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$seq\+\_\+ctrl\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Gets the sequencer control register 1 value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a5e89d5152755e393910661c0e1bc82ba}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+Data\+Reg}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$data)
+\begin{DoxyCompactList}\small\item\em Gets the data register value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a3fe7ace4728c0db978cadd010d8650ad}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+FIFOlevel}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the FIFO level value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a35dcbdd45db3491d98f7b499a68b8919}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+FIFOlevel}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$fifo\+\_\+level)
+\begin{DoxyCompactList}\small\item\em Gets the FIFO level value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_ad9bfa304b028ac0e7fdc21341427cb3e}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+RIS}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$ris)
+\begin{DoxyCompactList}\small\item\em Gets th raw interrupt status value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_a0c9c90ff1a3298118b15ae342b9c96c8}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+MIS}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$mis)
+\begin{DoxyCompactList}\small\item\em Gets the masked interrupt status value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_af3a8c712bf11fc09e32029b57bc6e3ee}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+IM}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the interrupt mask value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_af65a56467240038ca3e3782469015125}{EF\+\_\+\+ADCS1008\+A\+\_\+get\+IM}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t $\ast$im)
+\begin{DoxyCompactList}\small\item\em Gets the interrupt mask value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8c_aca40c92eaa64582a8b447928d1c7874a}{EF\+\_\+\+ADCS1008\+A\+\_\+set\+IC}} (\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}} adc, uint32\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Sets the interrupt clear value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+C source file for the EF\+\_\+\+ADCS1008A IP. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a7fe256b81668f964209e3a9fc8ee6932}\label{_e_f___a_d_c_s1008_a_8c_a7fe256b81668f964209e3a9fc8ee6932}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_C@{EF\_ADCS1008A\_C}}
+\index{EF\_ADCS1008A\_C@{EF\_ADCS1008A\_C}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_C}{EF\_ADCS1008A\_C}}
+{\footnotesize\ttfamily \#define EF\+\_\+\+ADCS1008\+A\+\_\+C}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a0566413b8a58ed5b535c6f7923c73cbb}\label{_e_f___a_d_c_s1008_a_8c_a0566413b8a58ed5b535c6f7923c73cbb}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_enable@{EF\_ADCS1008A\_enable}}
+\index{EF\_ADCS1008A\_enable@{EF\_ADCS1008A\_enable}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_enable()}{EF\_ADCS1008A\_enable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+enable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{bool}]{enable }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the ADC. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em enable} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a2158ed4c8d0614ca0a5e8e527a475e20}\label{_e_f___a_d_c_s1008_a_8c_a2158ed4c8d0614ca0a5e8e527a475e20}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getChannelNumber@{EF\_ADCS1008A\_getChannelNumber}}
+\index{EF\_ADCS1008A\_getChannelNumber@{EF\_ADCS1008A\_getChannelNumber}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getChannelNumber()}{EF\_ADCS1008A\_getChannelNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Channel\+Number (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{channel\+\_\+number }\end{DoxyParamCaption})}
+
+
+
+Gets the channel number. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em channel\+\_\+number} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a62e3a91d0eb7fb69175d49d617c1d2c5}\label{_e_f___a_d_c_s1008_a_8c_a62e3a91d0eb7fb69175d49d617c1d2c5}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getCtrlReg@{EF\_ADCS1008A\_getCtrlReg}}
+\index{EF\_ADCS1008A\_getCtrlReg@{EF\_ADCS1008A\_getCtrlReg}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getCtrlReg()}{EF\_ADCS1008A\_getCtrlReg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Ctrl\+Reg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{ctrl\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+Gets the control register value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em ctrl\+\_\+value} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a5e89d5152755e393910661c0e1bc82ba}\label{_e_f___a_d_c_s1008_a_8c_a5e89d5152755e393910661c0e1bc82ba}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getDataReg@{EF\_ADCS1008A\_getDataReg}}
+\index{EF\_ADCS1008A\_getDataReg@{EF\_ADCS1008A\_getDataReg}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getDataReg()}{EF\_ADCS1008A\_getDataReg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Data\+Reg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{data }\end{DoxyParamCaption})}
+
+
+
+Gets the data register value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em data} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a35dcbdd45db3491d98f7b499a68b8919}\label{_e_f___a_d_c_s1008_a_8c_a35dcbdd45db3491d98f7b499a68b8919}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getFIFOlevel@{EF\_ADCS1008A\_getFIFOlevel}}
+\index{EF\_ADCS1008A\_getFIFOlevel@{EF\_ADCS1008A\_getFIFOlevel}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getFIFOlevel()}{EF\_ADCS1008A\_getFIFOlevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+FIFOlevel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{fifo\+\_\+level }\end{DoxyParamCaption})}
+
+
+
+Gets the FIFO level value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em fifo\+\_\+level} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_af65a56467240038ca3e3782469015125}\label{_e_f___a_d_c_s1008_a_8c_af65a56467240038ca3e3782469015125}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getIM@{EF\_ADCS1008A\_getIM}}
+\index{EF\_ADCS1008A\_getIM@{EF\_ADCS1008A\_getIM}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getIM()}{EF\_ADCS1008A\_getIM()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+IM (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{im }\end{DoxyParamCaption})}
+
+
+
+Gets the interrupt mask value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em im} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a0c9c90ff1a3298118b15ae342b9c96c8}\label{_e_f___a_d_c_s1008_a_8c_a0c9c90ff1a3298118b15ae342b9c96c8}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getMIS@{EF\_ADCS1008A\_getMIS}}
+\index{EF\_ADCS1008A\_getMIS@{EF\_ADCS1008A\_getMIS}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getMIS()}{EF\_ADCS1008A\_getMIS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+MIS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{mis }\end{DoxyParamCaption})}
+
+
+
+Gets the masked interrupt status value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em mis} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_ad9bfa304b028ac0e7fdc21341427cb3e}\label{_e_f___a_d_c_s1008_a_8c_ad9bfa304b028ac0e7fdc21341427cb3e}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getRIS@{EF\_ADCS1008A\_getRIS}}
+\index{EF\_ADCS1008A\_getRIS@{EF\_ADCS1008A\_getRIS}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getRIS()}{EF\_ADCS1008A\_getRIS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+RIS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{ris }\end{DoxyParamCaption})}
+
+
+
+Gets th raw interrupt status value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em ris} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a02b0645031336312593670285c359ba2}\label{_e_f___a_d_c_s1008_a_8c_a02b0645031336312593670285c359ba2}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getSeqCtrlReg0@{EF\_ADCS1008A\_getSeqCtrlReg0}}
+\index{EF\_ADCS1008A\_getSeqCtrlReg0@{EF\_ADCS1008A\_getSeqCtrlReg0}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getSeqCtrlReg0()}{EF\_ADCS1008A\_getSeqCtrlReg0()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Seq\+Ctrl\+Reg0 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{seq\+\_\+ctrl\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+Gets the sequencer control register 0 value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em seq\+\_\+ctrl\+\_\+value} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_aa18d7fe4dcb426bec6fdb80549cde38b}\label{_e_f___a_d_c_s1008_a_8c_aa18d7fe4dcb426bec6fdb80549cde38b}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getSeqCtrlReg1@{EF\_ADCS1008A\_getSeqCtrlReg1}}
+\index{EF\_ADCS1008A\_getSeqCtrlReg1@{EF\_ADCS1008A\_getSeqCtrlReg1}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getSeqCtrlReg1()}{EF\_ADCS1008A\_getSeqCtrlReg1()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Seq\+Ctrl\+Reg1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{seq\+\_\+ctrl\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+Gets the sequencer control register 1 value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em seq\+\_\+ctrl\+\_\+value} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_ae9d735eeed1f2ab1158e105dc435eb7e}\label{_e_f___a_d_c_s1008_a_8c_ae9d735eeed1f2ab1158e105dc435eb7e}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getStartConversion@{EF\_ADCS1008A\_getStartConversion}}
+\index{EF\_ADCS1008A\_getStartConversion@{EF\_ADCS1008A\_getStartConversion}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getStartConversion()}{EF\_ADCS1008A\_getStartConversion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Start\+Conversion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{value }\end{DoxyParamCaption})}
+
+
+
+Gets the start conversion bit. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em value} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a83dabe98735cbd83bc58fbb98b643252}\label{_e_f___a_d_c_s1008_a_8c_a83dabe98735cbd83bc58fbb98b643252}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_getTimerCtrlReg@{EF\_ADCS1008A\_getTimerCtrlReg}}
+\index{EF\_ADCS1008A\_getTimerCtrlReg@{EF\_ADCS1008A\_getTimerCtrlReg}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_getTimerCtrlReg()}{EF\_ADCS1008A\_getTimerCtrlReg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+get\+Timer\+Ctrl\+Reg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t $\ast$}]{ctrl\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+Gets the timer control register value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ out}}  & {\em ctrl\+\_\+value} & The value to be read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a6f93612136b260cd39dc7b94e54b10f7}\label{_e_f___a_d_c_s1008_a_8c_a6f93612136b260cd39dc7b94e54b10f7}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_sequencerEnable@{EF\_ADCS1008A\_sequencerEnable}}
+\index{EF\_ADCS1008A\_sequencerEnable@{EF\_ADCS1008A\_sequencerEnable}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_sequencerEnable()}{EF\_ADCS1008A\_sequencerEnable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+sequencer\+Enable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{bool}]{enable }\end{DoxyParamCaption})}
+
+
+
+Enables or disables the sequencer. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em enable} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a207ee58b5e968aa7d83268f9a5c1b681}\label{_e_f___a_d_c_s1008_a_8c_a207ee58b5e968aa7d83268f9a5c1b681}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setChannelNumber@{EF\_ADCS1008A\_setChannelNumber}}
+\index{EF\_ADCS1008A\_setChannelNumber@{EF\_ADCS1008A\_setChannelNumber}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setChannelNumber()}{EF\_ADCS1008A\_setChannelNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Channel\+Number (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the channel number. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a215124081722de6a3f8ff9504c839bdc}\label{_e_f___a_d_c_s1008_a_8c_a215124081722de6a3f8ff9504c839bdc}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setClockDivider@{EF\_ADCS1008A\_setClockDivider}}
+\index{EF\_ADCS1008A\_setClockDivider@{EF\_ADCS1008A\_setClockDivider}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setClockDivider()}{EF\_ADCS1008A\_setClockDivider()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Clock\+Divider (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{char}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the clock divider value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a1b531f7b95f37fbc534e419f01910873}\label{_e_f___a_d_c_s1008_a_8c_a1b531f7b95f37fbc534e419f01910873}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setCtrlReg@{EF\_ADCS1008A\_setCtrlReg}}
+\index{EF\_ADCS1008A\_setCtrlReg@{EF\_ADCS1008A\_setCtrlReg}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setCtrlReg()}{EF\_ADCS1008A\_setCtrlReg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Ctrl\+Reg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the control register value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a3fe7ace4728c0db978cadd010d8650ad}\label{_e_f___a_d_c_s1008_a_8c_a3fe7ace4728c0db978cadd010d8650ad}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setFIFOlevel@{EF\_ADCS1008A\_setFIFOlevel}}
+\index{EF\_ADCS1008A\_setFIFOlevel@{EF\_ADCS1008A\_setFIFOlevel}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setFIFOlevel()}{EF\_ADCS1008A\_setFIFOlevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+FIFOlevel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the FIFO level value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_aca40c92eaa64582a8b447928d1c7874a}\label{_e_f___a_d_c_s1008_a_8c_aca40c92eaa64582a8b447928d1c7874a}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setIC@{EF\_ADCS1008A\_setIC}}
+\index{EF\_ADCS1008A\_setIC@{EF\_ADCS1008A\_setIC}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setIC()}{EF\_ADCS1008A\_setIC()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+IC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the interrupt clear value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_af3a8c712bf11fc09e32029b57bc6e3ee}\label{_e_f___a_d_c_s1008_a_8c_af3a8c712bf11fc09e32029b57bc6e3ee}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setIM@{EF\_ADCS1008A\_setIM}}
+\index{EF\_ADCS1008A\_setIM@{EF\_ADCS1008A\_setIM}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setIM()}{EF\_ADCS1008A\_setIM()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+IM (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the interrupt mask value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_acf239237979f59ebae7534437516f94c}\label{_e_f___a_d_c_s1008_a_8c_acf239237979f59ebae7534437516f94c}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setSampleDivider@{EF\_ADCS1008A\_setSampleDivider}}
+\index{EF\_ADCS1008A\_setSampleDivider@{EF\_ADCS1008A\_setSampleDivider}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setSampleDivider()}{EF\_ADCS1008A\_setSampleDivider()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Sample\+Divider (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{char}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the sample divider value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_ac446f1498a592acf540c0b140af3ced6}\label{_e_f___a_d_c_s1008_a_8c_ac446f1498a592acf540c0b140af3ced6}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setSeqCtrlReg0@{EF\_ADCS1008A\_setSeqCtrlReg0}}
+\index{EF\_ADCS1008A\_setSeqCtrlReg0@{EF\_ADCS1008A\_setSeqCtrlReg0}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setSeqCtrlReg0()}{EF\_ADCS1008A\_setSeqCtrlReg0()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Seq\+Ctrl\+Reg0 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the sequencer control register 0 value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_aa6e70774e99c1786f377c85e849349a4}\label{_e_f___a_d_c_s1008_a_8c_aa6e70774e99c1786f377c85e849349a4}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setSeqCtrlReg1@{EF\_ADCS1008A\_setSeqCtrlReg1}}
+\index{EF\_ADCS1008A\_setSeqCtrlReg1@{EF\_ADCS1008A\_setSeqCtrlReg1}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setSeqCtrlReg1()}{EF\_ADCS1008A\_setSeqCtrlReg1()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Seq\+Ctrl\+Reg1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the sequencer control register 1 value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_afb89d7b4763110d6a8db7cf3b40d2d3a}\label{_e_f___a_d_c_s1008_a_8c_afb89d7b4763110d6a8db7cf3b40d2d3a}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStartConversion@{EF\_ADCS1008A\_setStartConversion}}
+\index{EF\_ADCS1008A\_setStartConversion@{EF\_ADCS1008A\_setStartConversion}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStartConversion()}{EF\_ADCS1008A\_setStartConversion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Start\+Conversion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{bool}]{start }\end{DoxyParamCaption})}
+
+
+
+Sets the start conversion bit. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em start} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a06391c197219774fabb69ae9ca30c391}\label{_e_f___a_d_c_s1008_a_8c_a06391c197219774fabb69ae9ca30c391}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep0@{EF\_ADCS1008A\_setStep0}}
+\index{EF\_ADCS1008A\_setStep0@{EF\_ADCS1008A\_setStep0}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep0()}{EF\_ADCS1008A\_setStep0()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step0 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 0 value in the sequencer control register 0. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a5b907b98d8465a32c72b0d6cc03b3cf2}\label{_e_f___a_d_c_s1008_a_8c_a5b907b98d8465a32c72b0d6cc03b3cf2}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep1@{EF\_ADCS1008A\_setStep1}}
+\index{EF\_ADCS1008A\_setStep1@{EF\_ADCS1008A\_setStep1}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep1()}{EF\_ADCS1008A\_setStep1()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 1 value in the sequencer control register 0. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a8b7002250243f58c4603a904f9335d58}\label{_e_f___a_d_c_s1008_a_8c_a8b7002250243f58c4603a904f9335d58}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep2@{EF\_ADCS1008A\_setStep2}}
+\index{EF\_ADCS1008A\_setStep2@{EF\_ADCS1008A\_setStep2}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep2()}{EF\_ADCS1008A\_setStep2()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 2 value in the sequencer control register 0. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_aa99b5b974be67b2863664ea2fd2c626b}\label{_e_f___a_d_c_s1008_a_8c_aa99b5b974be67b2863664ea2fd2c626b}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep3@{EF\_ADCS1008A\_setStep3}}
+\index{EF\_ADCS1008A\_setStep3@{EF\_ADCS1008A\_setStep3}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep3()}{EF\_ADCS1008A\_setStep3()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 3 value in the sequencer control register 0. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a831354e2c5e583eef9659f912692300b}\label{_e_f___a_d_c_s1008_a_8c_a831354e2c5e583eef9659f912692300b}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep4@{EF\_ADCS1008A\_setStep4}}
+\index{EF\_ADCS1008A\_setStep4@{EF\_ADCS1008A\_setStep4}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep4()}{EF\_ADCS1008A\_setStep4()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step4 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 4 value in the sequencer control register 1. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_afeaa7ca93257f62027a55d2bf2ccce13}\label{_e_f___a_d_c_s1008_a_8c_afeaa7ca93257f62027a55d2bf2ccce13}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep5@{EF\_ADCS1008A\_setStep5}}
+\index{EF\_ADCS1008A\_setStep5@{EF\_ADCS1008A\_setStep5}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep5()}{EF\_ADCS1008A\_setStep5()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step5 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 5 value in the sequencer control register 1. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a6960ebc13de7c393d55e166a6e80f581}\label{_e_f___a_d_c_s1008_a_8c_a6960ebc13de7c393d55e166a6e80f581}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep6@{EF\_ADCS1008A\_setStep6}}
+\index{EF\_ADCS1008A\_setStep6@{EF\_ADCS1008A\_setStep6}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep6()}{EF\_ADCS1008A\_setStep6()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step6 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 6 value in the sequencer control register 1. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_a0945c6f49eb4874d4d68efdba4a6f090}\label{_e_f___a_d_c_s1008_a_8c_a0945c6f49eb4874d4d68efdba4a6f090}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setStep7@{EF\_ADCS1008A\_setStep7}}
+\index{EF\_ADCS1008A\_setStep7@{EF\_ADCS1008A\_setStep7}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setStep7()}{EF\_ADCS1008A\_setStep7()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Step7 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the step 7 value in the sequencer control register 1. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_e_f___a_d_c_s1008_a_8c_ab19849160c1495c51ea659005361c788}\label{_e_f___a_d_c_s1008_a_8c_ab19849160c1495c51ea659005361c788}} 
+\index{EF\_ADCS1008A.c@{EF\_ADCS1008A.c}!EF\_ADCS1008A\_setTimerCtrlReg@{EF\_ADCS1008A\_setTimerCtrlReg}}
+\index{EF\_ADCS1008A\_setTimerCtrlReg@{EF\_ADCS1008A\_setTimerCtrlReg}!EF\_ADCS1008A.c@{EF\_ADCS1008A.c}}
+\doxysubsubsection{\texorpdfstring{EF\_ADCS1008A\_setTimerCtrlReg()}{EF\_ADCS1008A\_setTimerCtrlReg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_e_f___driver___common_8h_ad1c99136d1edfd0a7757f5b81600a351}{EF\+\_\+\+DRIVER\+\_\+\+STATUS}} EF\+\_\+\+ADCS1008\+A\+\_\+set\+Timer\+Ctrl\+Reg (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}}]{adc,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the timer control register value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em adc} & An \mbox{\hyperlink{_e_f___a_d_c_s1008_a_8h_a36755f0e5dd4cfdb50003f78c49adf96}{EF\+\_\+\+ADCS1008\+A\+\_\+\+TYPE\+\_\+\+PTR}}. The pointer to the ADCS1008A registers structure \\
+\hline
+\mbox{\texttt{ in}}  & {\em value} & The value to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+EF\+\_\+\+DRIVER\+\_\+\+STATUS 
+\end{DoxyReturn}
