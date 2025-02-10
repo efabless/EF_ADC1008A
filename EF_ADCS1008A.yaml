@@ -1,0 +1,285 @@
+---
+info:
+  name: EF_ADCS1008A
+  description: A digital controller for 8 Channel 10-bit SAR ADC.
+  repo: github.com/efabless/ef_sar_adc8
+  author: Mohamed Shalan
+  email: mshalan@efabless.com
+  version: v1.0.3
+  date: 11-6-2024
+  owner: Efabless Corp.
+  license: Apache 2.0
+  category: '2'
+  tags:
+  - peripheral
+  - data converter
+  bus:
+  - generic
+  type: hybrid
+  status: verified
+  width: '0'
+  height: '0'
+  cell_count: '0'
+
+parameters:
+  - name: CLKDIV_WIDTH
+    default: 8
+    description: "Clock divider width"
+  - name: FIFO_AW
+    default: 5
+    description: "FIFO Address width; Depth=2^AW"
+
+registers:
+- name: TCTRL
+  size: 32
+  mode: rw
+  offset: 0
+  bit_access: no
+  fields:
+  - name: clkdiv
+    bit_offset: 0
+    bit_width: 8
+    port: clkdiv
+  - name: sample_div
+    bit_offset: 8
+    bit_width: 8
+    port: sample_div
+  - name: swidth
+    bit_offset: 16
+    bit_width: 4
+    port: swidth
+- name: CHSEL
+  size: 3
+  offset: 4
+  bit_access: no
+  mode: rw
+  fields:
+  - name: channel
+    bit_offset: 0
+    bit_width: 3
+    port: ch_sel_in
+- name: CTRL
+  size: 2
+  mode: rw
+  offset: 8
+  bit_access: no
+  fields:
+  - name: en
+    bit_offset: 0
+    bit_width: 1
+    port: en
+  - name: seqen
+    bit_offset: 1
+    bit_width: 1
+    port: seq_en
+- name: SOC
+  size: 1
+  mode: rw
+  offset: 12
+  bit_access: no
+  fields:
+  - name: soc
+    bit_offset: 0
+    bit_width: 1
+    port: soc
+- name: SEQCTRL0
+  size: 32
+  mode: rw
+  offset: 16
+  bit_access: no
+  fields:
+  - name: seq0
+    bit_offset: 0
+    bit_width: 5
+    port: seq0
+  - name: seq1
+    bit_offset: 8
+    bit_width: 5
+    port: seq1
+  - name: seq2
+    bit_offset: 16
+    bit_width: 5
+    port: seq2
+  - name: seq3
+    bit_offset: 24
+    bit_width: 5
+    port: seq3
+- name: SEQCTRL1
+  size: 32
+  mode: rw
+  offset: 20
+  bit_access: no
+  fields:
+  - name: seq4
+    bit_offset: 0
+    bit_width: 5
+    port: seq4
+  - name: seq5
+    bit_offset: 8
+    bit_width: 5
+    port: seq5
+  - name: seq6
+    bit_offset: 16
+    bit_width: 5
+    port: seq6
+  - name: seq7
+    bit_offset: 24
+    bit_width: 5
+    port: seq7
+- name: DATA
+  size: 10
+  mode: fr
+  offset: 24
+  bit_access: no
+  fields:
+  - name: data
+    bit_offset: 0
+    bit_width: 10
+    port: data
+- name: FIFOLEVEL
+  size: 5
+  mode: rw
+  offset: 28
+  bit_access: no
+  fields:
+  - name: value
+    bit_offset: 0
+    bit_width: 5
+    port: fifo_threshold
+fifos:
+- name: DATA_FIFO
+  address_width: 5
+  width: 10
+  reg: data
+  type: r
+  control_port: rd
+  data_port: data
+  level_port: todo
+  threshold_port: todo
+  flush_port: todo
+interface:
+- name: cmp
+  port: cmp
+  dir: input
+  size: '1'
+- name: sample_n
+  port: sample_n
+  dir: output
+  size: '1'
+- name: ch_sel_out
+  port: ch_sel_out
+  dir: output
+  size: '3'
+- name: adc_data
+  port: adc_data
+  dir: output
+  size: '10'
+- name: EN
+  port: EN
+  dir: output
+  size: '1'
+- name: dac_rst
+  port: dac_rst
+  dir: output
+  size: '1'
+
+clock: 
+  name: clk
+  gated: no
+
+reset:
+  name: rst_n
+  pol: 0
+
+
+flags:
+- name: fifo_full
+  port: fifo_full
+- name: fifo_level
+  port: fifo_above
+- name: eoc
+  port: eoc
+
+
+ports:
+- name: swidth
+  width: 4
+  direction: input
+- name: clkdiv
+  width: 8
+  direction: input
+- name: sample_div
+  width: 8
+  direction: input
+- name: en
+  width: 1
+  direction: input
+- name: cmp
+  width: 1
+  direction: input
+- name: soc
+  width: 1
+  direction: input
+- name: dac_rst
+  width: 1
+  direction: output
+- name: sample_n
+  width: 1
+  direction: output
+- name: eoc
+  width: 1
+  direction: output
+- name: data
+  width: 10
+  direction: output
+- name: adc_data
+  width: 10
+  direction: output
+- name: rd
+  width: 1
+  direction: input
+- name: ch_sel_out
+  width: 3
+  direction: output
+- name: ch_sel_in
+  width: 3
+  direction: input
+- name: seq0
+  width: 5
+  direction: input
+- name: seq1
+  width: 5
+  direction: input
+- name: seq2
+  width: 5
+  direction: input
+- name: seq3
+  width: 5
+  direction: input
+- name: seq4
+  width: 5
+  direction: input
+- name: seq5
+  width: 5
+  direction: input
+- name: seq6
+  width: 5
+  direction: input
+- name: seq7
+  width: 5
+  direction: input
+- name: seq_en
+  width: 1
+  direction: input
+- name: fifo_full
+  width: 1
+  direction: output
+- name: fifo_threshold
+  width: 4
+  direction: input
+- name: fifo_above
+  width: 1
+  direction: output
+- name: EN
+  width: 1
+  direction: output
